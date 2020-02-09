@@ -1,0 +1,3777 @@
+# Copyright (C) 2018 Gaviasthemes Team
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kunco 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/kunco\n"
+"POT-Creation-Date: 2018-09-11 09:09:13+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:17
+msgid "404"
+msgstr ""
+
+#: 404.php:18
+msgid "PAGE NOT FOUND"
+msgstr ""
+
+#: 404.php:19
+msgid "The page requested couldn't be found. This could be a spelling error in the URL or a removed page."
+msgstr ""
+
+#: 404.php:22
+msgid "Back Homepage"
+msgstr ""
+
+#: comments.php:26
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:51
+msgid "Comments are closed."
+msgstr ""
+
+#: content-audio.php:28 content-audio.php:56 content-gallery.php:28
+#: content-gallery.php:64 content-link.php:29 content-link.php:46
+#: content-quote.php:29 content-quote.php:46 content-video.php:29
+#: content-video.php:56 content.php:31 content.php:49
+#: vc_templates/gva_blogs_carousel.php:54
+#: vc_templates/gva_blogs_small_list.php:46
+#: vc_templates/gva_blogs_stick_list.php:36
+#: vc_templates/gva_blogs_stick_list.php:55
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: content-audio.php:66 content-gallery.php:74 content-link.php:56
+#: content-quote.php:56 content-video.php:66 content.php:59
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content-audio.php:70 content-gallery.php:78 content-link.php:60
+#: content-quote.php:60 content-video.php:70 content.php:63
+msgid "Pages:"
+msgstr ""
+
+#: content-audio.php:82 content-gallery.php:90 content-link.php:72
+#: content-quote.php:72 content-video.php:82 content.php:75
+msgid "Read more "
+msgstr ""
+
+#: footer.php:59
+msgid "Copyright "
+msgstr ""
+
+#: footer.php:59
+msgid "Company - All rights reserved. Powered by WordPress."
+msgstr ""
+
+#: functions.php:63
+msgid "Default Sidebar"
+msgstr ""
+
+#: functions.php:65
+msgid "Appears in the Default Sidebar section of the site."
+msgstr ""
+
+#: functions.php:72
+msgid "Newsletter Sidebar"
+msgstr ""
+
+#: functions.php:74 functions.php:83
+msgid "Appears in the Newsletter Sidebar section of the site."
+msgstr ""
+
+#: functions.php:81
+msgid "Instagram Sidebar"
+msgstr ""
+
+#: functions.php:90
+msgid "Plugin| WooCommerce Sidebar"
+msgstr ""
+
+#: functions.php:92
+msgid "Appears in the Plugin WooCommerce section of the site."
+msgstr ""
+
+#: functions.php:100
+msgid "Plugin| WooCommerce Single"
+msgstr ""
+
+#: functions.php:102
+msgid "Appears in the WooCommerce Single Page like social, description text ..."
+msgstr ""
+
+#: functions.php:110
+msgid "Plugin| Give Sidebar"
+msgstr ""
+
+#: functions.php:112
+msgid "Appears in the Give Form Page like social, description text ..."
+msgstr ""
+
+#: functions.php:120
+msgid "Portfolio Sidebar"
+msgstr ""
+
+#: functions.php:122
+msgid "Appears in the Portfolio Page section of the site."
+msgstr ""
+
+#: functions.php:130
+msgid "After Offcanvas Mobile"
+msgstr ""
+
+#: functions.php:132 functions.php:142
+msgid "Appears in the Offcanvas section of the site."
+msgstr ""
+
+#: functions.php:140
+msgid "Offcanvas Sidebar"
+msgstr ""
+
+#: functions.php:150
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:152
+msgid "Appears in the Blog sidebar section of the site."
+msgstr ""
+
+#: functions.php:160
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:162
+msgid "Appears in the Page Sidebar section of the site."
+msgstr ""
+
+#: functions.php:170
+msgid "Footer first"
+msgstr ""
+
+#: functions.php:172
+msgid "Appears in the Footer first section of the site."
+msgstr ""
+
+#: functions.php:180
+msgid "Footer second"
+msgstr ""
+
+#: functions.php:182
+msgid "Appears in the Footer second section of the site."
+msgstr ""
+
+#: functions.php:190
+msgid "Footer third"
+msgstr ""
+
+#: functions.php:192
+msgid "Appears in the Footer third section of the site."
+msgstr ""
+
+#: functions.php:200
+msgid "Footer four"
+msgstr ""
+
+#: functions.php:202
+msgid "Appears in the Footer four section of the site."
+msgstr ""
+
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Sans, translate this to 'off'. Do not translate into your own
+#. language.
+
+#: functions.php:226
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:230
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#. Translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+
+#: functions.php:238
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#: give/content-form-2.php:15 give/content-form-3.php:15
+#: give/content-form.php:15 give/content-widget.php:15
+msgid "unlimited"
+msgstr ""
+
+#: give/content-form-2.php:44 give/content-form-2.php:55
+#: give/content-form-3.php:43 give/content-form-3.php:54
+#: give/content-form.php:50 give/content-form.php:61 give/content-widget.php:48
+#: give/content-widget.php:59
+msgid "Raised"
+msgstr ""
+
+#: give/content-form-2.php:48 give/content-form-2.php:64
+#: give/content-form-3.php:47 give/content-form-3.php:63
+#: give/content-form.php:54 give/content-form.php:68 give/content-widget.php:52
+#: give/content-widget.php:66
+msgid "Goal"
+msgstr ""
+
+#: give/content-form-2.php:72 give/content-form-3.php:72
+#: templates/event/content-item.php:27 vc_templates/gva_image_content.php:24
+#: vc_templates/gva_image_content.php:49
+msgid "Read more"
+msgstr ""
+
+#: give/content-form.php:34 give/content-widget.php:34
+msgid "Donation now"
+msgstr ""
+
+#: header-v2.php:87 header-v4.php:87 header.php:85
+msgid "Donation Now"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+
+#: includes/menu/megamenu.php:360
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+
+#: includes/menu/megamenu.php:364
+msgid "%s (Pending)"
+msgstr ""
+
+#: includes/menu/megamenu.php:382
+msgid "Mega Menu"
+msgstr ""
+
+#: includes/menu/megamenu.php:398
+msgid "Move up"
+msgstr ""
+
+#: includes/menu/megamenu.php:411
+msgid "Move down"
+msgstr ""
+
+#: includes/menu/megamenu.php:413
+msgid "Edit Menu Item"
+msgstr ""
+
+#: includes/menu/megamenu.php:423
+msgid "Mega Menu Setting"
+msgstr ""
+
+#: includes/menu/megamenu.php:427
+msgid "Mega Menu Enabled"
+msgstr ""
+
+#: includes/menu/megamenu.php:433
+msgid "Choose MegaMenu"
+msgstr ""
+
+#: includes/menu/megamenu.php:444 includes/visualcomposer/vc-theme.php:558
+#: includes/visualcomposer/vc-theme.php:773
+#: includes/visualcomposer/vc-theme.php:1935
+msgid "Icon"
+msgstr ""
+
+#: includes/menu/megamenu.php:444
+msgid "(icons in Font Awesome)"
+msgstr ""
+
+#: includes/menu/megamenu.php:455
+msgid "Number columns"
+msgstr ""
+
+#: includes/menu/megamenu.php:457
+msgid "Number columns of submenu(support 1,2,4,6 columns)"
+msgstr ""
+
+#: includes/menu/megamenu.php:467
+msgid "URL"
+msgstr ""
+
+#: includes/menu/megamenu.php:474
+msgid "Navigation Label"
+msgstr ""
+
+#: includes/menu/megamenu.php:480
+msgid "Title Attribute"
+msgstr ""
+
+#: includes/menu/megamenu.php:487
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: includes/menu/megamenu.php:492
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: includes/menu/megamenu.php:498
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: includes/menu/megamenu.php:504 includes/visualcomposer/vc-theme.php:496
+#: includes/visualcomposer/vc-theme.php:570
+#: includes/visualcomposer/vc-theme.php:768
+msgid "Description"
+msgstr ""
+
+#: includes/menu/megamenu.php:506
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: includes/menu/megamenu.php:512
+msgid "Move"
+msgstr ""
+
+#: includes/menu/megamenu.php:513
+msgid "Up one"
+msgstr ""
+
+#: includes/menu/megamenu.php:514
+msgid "Down one"
+msgstr ""
+
+#: includes/menu/megamenu.php:517
+msgid "To the top"
+msgstr ""
+
+#: includes/menu/megamenu.php:524
+msgid "Original: %s"
+msgstr ""
+
+#: includes/menu/megamenu.php:537
+msgid "Remove"
+msgstr ""
+
+#: includes/menu/megamenu.php:538
+msgid "Cancel"
+msgstr ""
+
+#: includes/metaboxes.php:19
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/metaboxes.php:26
+msgid "Thumbnail image"
+msgstr ""
+
+#: includes/metaboxes.php:27
+msgid "The image that will be used as the thumbnail image."
+msgstr ""
+
+#: includes/metaboxes.php:35
+msgid "Thumbnail video URL"
+msgstr ""
+
+#: includes/metaboxes.php:37
+msgid "Enter the video url for the thumbnail. Only links from Vimeo & YouTube are supported."
+msgstr ""
+
+#: includes/metaboxes.php:45
+msgid "Thumbnail audio URL"
+msgstr ""
+
+#: includes/metaboxes.php:47
+msgid "Enter the audio url for the thumbnail."
+msgstr ""
+
+#: includes/metaboxes.php:55
+msgid "Thumbnail gallery"
+msgstr ""
+
+#: includes/metaboxes.php:56
+msgid "The images that will be used in the thumbnail gallery."
+msgstr ""
+
+#: includes/metaboxes.php:64
+msgid "Thumbnail link type"
+msgstr ""
+
+#: includes/metaboxes.php:68
+msgid "Link to item"
+msgstr ""
+
+#: includes/metaboxes.php:69
+msgid "Link to URL"
+msgstr ""
+
+#: includes/metaboxes.php:70
+msgid "Link to URL (New Window)"
+msgstr ""
+
+#: includes/metaboxes.php:71
+msgid "Lightbox to the thumbnail image"
+msgstr ""
+
+#: includes/metaboxes.php:72
+msgid "Lightbox to image (select below)"
+msgstr ""
+
+#: includes/metaboxes.php:73
+msgid "Fullscreen Video Overlay (input below)"
+msgstr ""
+
+#: includes/metaboxes.php:77
+msgid "Choose what link will be used for the image(s) and title of the item."
+msgstr ""
+
+#: includes/metaboxes.php:82
+msgid "Thumbnail link URL"
+msgstr ""
+
+#: includes/metaboxes.php:84
+msgid "Enter the url for the thumbnail link."
+msgstr ""
+
+#: includes/metaboxes.php:92
+msgid "Thumbnail link lightbox image"
+msgstr ""
+
+#: includes/metaboxes.php:93
+msgid "The image that will be used as the lightbox image."
+msgstr ""
+
+#: includes/metaboxes.php:104 includes/metaboxes.php:140
+msgid "Page Title"
+msgstr ""
+
+#: includes/metaboxes.php:110
+msgid "Remove Title of Page"
+msgstr ""
+
+#: includes/metaboxes.php:118
+msgid "Show page title in the breadcrumbs"
+msgstr ""
+
+#: includes/metaboxes.php:126
+msgid "Page Title Style"
+msgstr ""
+
+#: includes/metaboxes.php:130 includes/options/options-config.php:851
+#: includes/options/options-config.php:1132
+msgid "Standard"
+msgstr ""
+
+#: includes/metaboxes.php:131 includes/options/options-config.php:301
+#: includes/options/options-config.php:852
+#: includes/options/options-config.php:1133
+#: includes/visualcomposer/vc-theme.php:1249
+msgid "Background"
+msgstr ""
+
+#: includes/metaboxes.php:135
+msgid "Choose the heading style."
+msgstr ""
+
+#: includes/metaboxes.php:142
+msgid "Enter a custom page title if you'd like."
+msgstr ""
+
+#: includes/metaboxes.php:149
+msgid "Hero Overlay Color"
+msgstr ""
+
+#: includes/metaboxes.php:151
+msgid "Set an overlay color for hero heading image."
+msgstr ""
+
+#: includes/metaboxes.php:158 includes/options/options-config.php:882
+#: includes/options/options-config.php:1165
+msgid "Overlay Opacity"
+msgstr ""
+
+#: includes/metaboxes.php:160
+msgid "Set the opacity level of the overlay. This will lighten or darken the image depening on the color selected."
+msgstr ""
+
+#: includes/metaboxes.php:174
+msgid "Hero Heading Background Image"
+msgstr ""
+
+#: includes/metaboxes.php:175
+msgid "The image that will be used as the background for the hero header."
+msgstr ""
+
+#: includes/metaboxes.php:183
+msgid "Hero Heading Text Style"
+msgstr ""
+
+#: includes/metaboxes.php:187 includes/options/options-config.php:905
+#: includes/options/options-config.php:1189
+#: includes/visualcomposer/vc-theme.php:52
+#: includes/visualcomposer/vc-theme.php:100
+#: includes/visualcomposer/vc-theme.php:2129
+msgid "Light"
+msgstr ""
+
+#: includes/metaboxes.php:188 includes/options/options-config.php:906
+#: includes/options/options-config.php:1190
+#: includes/visualcomposer/vc-theme.php:2130
+msgid "Dark"
+msgstr ""
+
+#: includes/metaboxes.php:192
+msgid "If you uploaded an image in the option above, choose light/dark styling for the text heading text here."
+msgstr ""
+
+#: includes/metaboxes.php:197
+msgid "Hero Heading Text Align"
+msgstr ""
+
+#: includes/metaboxes.php:201 includes/visualcomposer/vc-theme.php:590
+#: includes/visualcomposer/vc-theme.php:795
+#: includes/visualcomposer/vc-theme.php:1716
+msgid "Left"
+msgstr ""
+
+#: includes/metaboxes.php:202 includes/visualcomposer/vc-theme.php:794
+msgid "Center"
+msgstr ""
+
+#: includes/metaboxes.php:203 includes/visualcomposer/vc-theme.php:589
+#: includes/visualcomposer/vc-theme.php:797
+#: includes/visualcomposer/vc-theme.php:1717
+msgid "Right"
+msgstr ""
+
+#: includes/metaboxes.php:207
+msgid "Choose the text alignment for the hero heading."
+msgstr ""
+
+#: includes/metaboxes.php:212
+msgid "Remove breadcrumbs"
+msgstr ""
+
+#: includes/metaboxes.php:215
+msgid "Remove the breadcrumbs from under the page title on this page."
+msgstr ""
+
+#: includes/metaboxes.php:225
+msgid "Testimonial Meta"
+msgstr ""
+
+#: includes/metaboxes.php:229
+msgid "Testimonial Job"
+msgstr ""
+
+#: includes/metaboxes.php:231
+msgid "Enter the job for the testimonial."
+msgstr ""
+
+#: includes/metaboxes.php:236
+msgid "Video Preview"
+msgstr ""
+
+#: includes/metaboxes.php:238
+msgid "Put link video preview, use youtube or vimeo video."
+msgstr ""
+
+#: includes/metaboxes.php:243 includes/visualcomposer/vc-theme.php:1782
+#: includes/visualcomposer/vc-theme.php:1906
+msgid "Image Preview"
+msgstr ""
+
+#: includes/metaboxes.php:255
+msgid "Page Meta"
+msgstr ""
+
+#: includes/metaboxes.php:260 includes/options/options-config.php:353
+#: includes/theme-functions.php:35
+msgid "Header"
+msgstr ""
+
+#: includes/metaboxes.php:262
+msgid "You can change header for page if you like's."
+msgstr ""
+
+#: includes/metaboxes.php:268 includes/options/options-config.php:485
+msgid "Footer"
+msgstr ""
+
+#: includes/metaboxes.php:270
+msgid "You can change footer for page if you like's"
+msgstr ""
+
+#: includes/metaboxes.php:277
+msgid "Extra page class"
+msgstr ""
+
+#: includes/metaboxes.php:279
+msgid "If you wish to add extra classes to the body class of the page (for custom css use), then please add the class(es) here."
+msgstr ""
+
+#: includes/metaboxes.php:286
+msgid "Full Width"
+msgstr ""
+
+#: includes/metaboxes.php:289
+msgid "Remove class container wrapper for page."
+msgstr ""
+
+#: includes/metaboxes.php:299
+msgid "Brands Options"
+msgstr ""
+
+#: includes/metaboxes.php:305
+msgid "Url Link"
+msgstr ""
+
+#: includes/metaboxes.php:317
+msgid "Sidebar Options"
+msgstr ""
+
+#: includes/metaboxes.php:324
+msgid "Sidebar configuration"
+msgstr ""
+
+#: includes/metaboxes.php:328
+msgid "--Default--"
+msgstr ""
+
+#: includes/metaboxes.php:329
+msgid "No Sidebars"
+msgstr ""
+
+#: includes/metaboxes.php:330 includes/metaboxes.php:341
+msgid "Left Sidebar"
+msgstr ""
+
+#: includes/metaboxes.php:331 includes/metaboxes.php:350
+msgid "Right Sidebar"
+msgstr ""
+
+#: includes/metaboxes.php:332
+msgid "Both Sidebars"
+msgstr ""
+
+#: includes/metaboxes.php:336
+msgid "Choose the sidebar configuration for the detail page of this page."
+msgstr ""
+
+#: includes/metaboxes.php:363
+msgid "Gallery Settings"
+msgstr ""
+
+#: includes/metaboxes.php:368 includes/metaboxes.php:455
+msgid "Gallery Images"
+msgstr ""
+
+#: includes/metaboxes.php:380
+msgid "Event Settings"
+msgstr ""
+
+#: includes/metaboxes.php:385
+msgid "Start Time"
+msgstr ""
+
+#: includes/metaboxes.php:390
+msgid "Finished Time"
+msgstr ""
+
+#: includes/metaboxes.php:395 includes/metaboxes.php:440
+#: includes/visualcomposer/vc-theme.php:508
+#: includes/visualcomposer/vc-theme.php:1828
+#: includes/visualcomposer/vc-theme.php:2008
+msgid "Address"
+msgstr ""
+
+#: includes/metaboxes.php:400
+msgid "Google Map"
+msgstr ""
+
+#: includes/metaboxes.php:411
+msgid "Team Settings"
+msgstr ""
+
+#: includes/metaboxes.php:416
+msgid "Position"
+msgstr ""
+
+#: includes/metaboxes.php:422
+msgid "Quote"
+msgstr ""
+
+#: includes/metaboxes.php:428 includes/visualcomposer/vc-theme.php:521
+#: includes/visualcomposer/vc-theme.php:1624
+msgid "Email"
+msgstr ""
+
+#: includes/metaboxes.php:434 includes/visualcomposer/vc-theme.php:514
+#: includes/visualcomposer/vc-theme.php:1630
+msgid "Phone"
+msgstr ""
+
+#: includes/metaboxes.php:450
+msgid "Give Forms Settings"
+msgstr ""
+
+#: includes/metaboxes.php:461
+msgid "Video URL"
+msgstr ""
+
+#: includes/metaboxes.php:466 includes/visualcomposer/vc-theme.php:1341
+msgid "Featured"
+msgstr ""
+
+#: includes/options/options-config.php:37
+#: includes/options/options-config.php:38
+msgid "Theme Settings"
+msgstr ""
+
+#: includes/options/options-config.php:143
+msgid "General Options"
+msgstr ""
+
+#: includes/options/options-config.php:150
+msgid "Skin Color"
+msgstr ""
+
+#: includes/options/options-config.php:173
+msgid "Page Layout"
+msgstr ""
+
+#: includes/options/options-config.php:174
+msgid "Select the page layout type"
+msgstr ""
+
+#: includes/options/options-config.php:182
+msgid "Enable Back To Top"
+msgstr ""
+
+#: includes/options/options-config.php:183
+msgid "Enable the back to top button that appears in the bottom right corner of the screen."
+msgstr ""
+
+#: includes/options/options-config.php:191
+msgid "Google Map API key"
+msgstr ""
+
+#: includes/options/options-config.php:199
+msgid "Header Options"
+msgstr ""
+
+#: includes/options/options-config.php:206
+msgid "Header Layout"
+msgstr ""
+
+#: includes/options/options-config.php:207
+msgid "Select a header layout option from the examples."
+msgstr ""
+
+#: includes/options/options-config.php:220
+msgid "Sticky Menu"
+msgstr ""
+
+#: includes/options/options-config.php:221
+msgid "Enable style menu when scoll page."
+msgstr ""
+
+#: includes/options/options-config.php:230
+msgid "Logo in header"
+msgstr ""
+
+#: includes/options/options-config.php:237
+msgid "Logo in header mobile"
+msgstr ""
+
+#: includes/options/options-config.php:243
+msgid "Enable Topbar"
+msgstr ""
+
+#: includes/options/options-config.php:244
+msgid "Enable/Disable Topbar for header Default."
+msgstr ""
+
+#: includes/options/options-config.php:252
+msgid "Link Button Header"
+msgstr ""
+
+#: includes/options/options-config.php:260
+msgid "Footer Options"
+msgstr ""
+
+#: includes/options/options-config.php:273
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: includes/options/options-config.php:281
+msgid "Styling"
+msgstr ""
+
+#: includes/options/options-config.php:287
+msgid "Colors"
+msgstr ""
+
+#: includes/options/options-config.php:292
+msgid "Main Color"
+msgstr ""
+
+#: includes/options/options-config.php:293
+msgid "Used for the body text."
+msgstr ""
+
+#: includes/options/options-config.php:306
+#: includes/options/options-config.php:344
+#: includes/options/options-config.php:358
+#: includes/options/options-config.php:455
+#: includes/options/options-config.php:490
+msgid "Background Color"
+msgstr ""
+
+#: includes/options/options-config.php:307
+msgid "Used for the main site background."
+msgstr ""
+
+#: includes/options/options-config.php:316
+msgid "Background Image"
+msgstr ""
+
+#: includes/options/options-config.php:317
+msgid "Upload a background image or specify a URL (boxed layout)."
+msgstr ""
+
+#: includes/options/options-config.php:322
+msgid "Background Type"
+msgstr ""
+
+#: includes/options/options-config.php:323
+msgid "Select the background-image type (fixed image or repeat pattern/texture)."
+msgstr ""
+
+#: includes/options/options-config.php:330
+msgid "Top Bar"
+msgstr ""
+
+#: includes/options/options-config.php:335
+msgid "Font Color"
+msgstr ""
+
+#: includes/options/options-config.php:336
+msgid "Used for the top bar text."
+msgstr ""
+
+#: includes/options/options-config.php:345
+msgid "Used for the top bar background."
+msgstr ""
+
+#: includes/options/options-config.php:365
+#: includes/options/options-config.php:463
+#: includes/options/options-config.php:497
+msgid "Text Color"
+msgstr ""
+
+#: includes/options/options-config.php:372
+#: includes/options/options-config.php:470
+#: includes/options/options-config.php:504
+msgid "Link Color"
+msgstr ""
+
+#: includes/options/options-config.php:379
+msgid "Color Hover Link"
+msgstr ""
+
+#: includes/options/options-config.php:387
+msgid "Menu"
+msgstr ""
+
+#: includes/options/options-config.php:392
+msgid "Menu | Background Color"
+msgstr ""
+
+#: includes/options/options-config.php:399
+msgid "Menu | Menu Text Color"
+msgstr ""
+
+#: includes/options/options-config.php:406
+msgid "Menu | Menu Link Color"
+msgstr ""
+
+#: includes/options/options-config.php:413
+msgid "Menu | Link Hover Color "
+msgstr ""
+
+#: includes/options/options-config.php:421
+msgid "Submenu | Background Color"
+msgstr ""
+
+#: includes/options/options-config.php:428
+msgid "Submenu | Color Text"
+msgstr ""
+
+#: includes/options/options-config.php:435
+msgid "Submenu | Link Color"
+msgstr ""
+
+#: includes/options/options-config.php:442
+msgid "Submenu | Link Hover Color"
+msgstr ""
+
+#: includes/options/options-config.php:450
+msgid "Main Content"
+msgstr ""
+
+#: includes/options/options-config.php:456
+msgid "Used for the header background."
+msgstr ""
+
+#: includes/options/options-config.php:477
+#: includes/options/options-config.php:511
+msgid "Link Hover Color"
+msgstr ""
+
+#: includes/options/options-config.php:519
+msgid "Typography"
+msgstr ""
+
+#: includes/options/options-config.php:526
+msgid "Main Font"
+msgstr ""
+
+#: includes/options/options-config.php:531
+#: includes/options/options-config.php:566
+msgid "Font Source"
+msgstr ""
+
+#: includes/options/options-config.php:542
+#: includes/options/options-config.php:577
+msgid "Font Face"
+msgstr ""
+
+#: includes/options/options-config.php:561
+msgid "Secondary Font"
+msgstr ""
+
+#: includes/options/options-config.php:594
+msgid "Blog"
+msgstr ""
+
+#: includes/options/options-config.php:601
+#: includes/options/options-config.php:1317
+msgid "Archive/Listing"
+msgstr ""
+
+#: includes/options/options-config.php:606
+msgid "Categories Layout"
+msgstr ""
+
+#: includes/options/options-config.php:607
+msgid "Select categories menu layout."
+msgstr ""
+
+#: includes/options/options-config.php:614
+msgid "Category Columns"
+msgstr ""
+
+#: includes/options/options-config.php:615
+msgid "Select the number of category columns to display."
+msgstr ""
+
+#: includes/options/options-config.php:626
+msgid "Default Archive Page Blog Sidebar Config"
+msgstr ""
+
+#: includes/options/options-config.php:640
+msgid "Default Archive Page Blog Left Sidebar"
+msgstr ""
+
+#: includes/options/options-config.php:649
+msgid "Default Archive Page Blog Right Sidebar"
+msgstr ""
+
+#: includes/options/options-config.php:658
+msgid "Blog Excerpt Limit"
+msgstr ""
+
+#: includes/options/options-config.php:665
+msgid "Single Post"
+msgstr ""
+
+#: includes/options/options-config.php:670
+#: includes/options/options-config.php:1421
+msgid "Default Single Sidebar Config"
+msgstr ""
+
+#: includes/options/options-config.php:684
+#: includes/options/options-config.php:1435
+msgid "Default Single Left Sidebar"
+msgstr ""
+
+#: includes/options/options-config.php:693
+#: includes/options/options-config.php:1444
+msgid "Default Single Right Sidebar"
+msgstr ""
+
+#: includes/options/options-config.php:704
+msgid "Page Meta Options"
+msgstr ""
+
+#: includes/options/options-config.php:709
+msgid "Default Show Page Heading"
+msgstr ""
+
+#: includes/options/options-config.php:710
+msgid "Choose the default state for the page heading, shown/hidden."
+msgstr ""
+
+#: includes/options/options-config.php:718
+msgid "Default Page Sidebar Config"
+msgstr ""
+
+#: includes/options/options-config.php:732
+msgid "Default Page Left Sidebar"
+msgstr ""
+
+#: includes/options/options-config.php:741
+msgid "Default Page Right Sidebar"
+msgstr ""
+
+#: includes/options/options-config.php:752
+msgid "WooCommerce Options"
+msgstr ""
+
+#: includes/options/options-config.php:757
+msgid "Products Per Page"
+msgstr ""
+
+#: includes/options/options-config.php:758
+msgid "Number value."
+msgstr ""
+
+#: includes/options/options-config.php:759
+msgid "The amount of products you would like to show per page on shop/category pages."
+msgstr ""
+
+#: includes/options/options-config.php:768
+msgid "Shop Options"
+msgstr ""
+
+#: includes/options/options-config.php:774
+#: includes/options/options-config.php:994
+msgid "Default Product Display Layout"
+msgstr ""
+
+#: includes/options/options-config.php:787
+msgid "Product Display Columns"
+msgstr ""
+
+#: includes/options/options-config.php:803
+msgid "WooCommerce Sidebar Config"
+msgstr ""
+
+#: includes/options/options-config.php:817
+msgid "WooCommerce Left Sidebar"
+msgstr ""
+
+#: includes/options/options-config.php:826
+msgid "WooCommerce Right Sidebar"
+msgstr ""
+
+#: includes/options/options-config.php:839
+#: includes/options/options-config.php:1119
+msgid "Shop Category / Page Heading"
+msgstr ""
+
+#: includes/options/options-config.php:840
+msgid "Show page title on shop/category WooCommerce page."
+msgstr ""
+
+#: includes/options/options-config.php:848
+msgid "WooCommerce Page Heading Style"
+msgstr ""
+
+#: includes/options/options-config.php:860
+#: includes/options/options-config.php:1141
+msgid "WooCommerce Page Heading Text Align"
+msgstr ""
+
+#: includes/options/options-config.php:874
+#: includes/options/options-config.php:1156
+msgid "Hero Heading Overlay Color"
+msgstr ""
+
+#: includes/options/options-config.php:893
+msgid "WooCommerce Hero Heading Background Image"
+msgstr ""
+
+#: includes/options/options-config.php:894
+msgid "Upload the hero heading background image for WooCommerce page heading (Hero Heading Only)."
+msgstr ""
+
+#: includes/options/options-config.php:902
+msgid "WooCommerce Hero Heading Text Style"
+msgstr ""
+
+#: includes/options/options-config.php:917
+msgid "Product Options"
+msgstr ""
+
+#: includes/options/options-config.php:923
+#: includes/options/options-config.php:1207
+msgid "Default Product Sidebar Config"
+msgstr ""
+
+#: includes/options/options-config.php:937
+#: includes/options/options-config.php:1221
+msgid "Default Product Left Sidebar"
+msgstr ""
+
+#: includes/options/options-config.php:946
+#: includes/options/options-config.php:1230
+msgid "Default Product Right Sidebar"
+msgstr ""
+
+#: includes/options/options-config.php:956
+msgid "Upsell Heading Text"
+msgstr ""
+
+#: includes/options/options-config.php:964
+msgid "Related Heading Text"
+msgstr ""
+
+#: includes/options/options-config.php:975
+msgid "Give Options"
+msgstr ""
+
+#: includes/options/options-config.php:980
+msgid "Give Form Excerpt Limit"
+msgstr ""
+
+#: includes/options/options-config.php:988
+msgid "Category Page Options"
+msgstr ""
+
+#: includes/options/options-config.php:1005
+msgid "Give pages show at most"
+msgstr ""
+
+#: includes/options/options-config.php:1016
+msgid "Gives Display Columns for Large Screen"
+msgstr ""
+
+#: includes/options/options-config.php:1032
+msgid "Gives Display Columns for Medium Screen"
+msgstr ""
+
+#: includes/options/options-config.php:1048
+msgid "Gives Display Columns for Small Screen"
+msgstr ""
+
+#: includes/options/options-config.php:1064
+msgid "Gives Display Columns for Extra Small Screen"
+msgstr ""
+
+#: includes/options/options-config.php:1081
+msgid "Give Sidebar Config"
+msgstr ""
+
+#: includes/options/options-config.php:1095
+msgid "Give Left Sidebar"
+msgstr ""
+
+#: includes/options/options-config.php:1104
+msgid "Give Right Sidebar"
+msgstr ""
+
+#: includes/options/options-config.php:1120
+msgid "Show page title on all gives/category Give page."
+msgstr ""
+
+#: includes/options/options-config.php:1129
+msgid "Give Page Heading Style"
+msgstr ""
+
+#: includes/options/options-config.php:1177
+msgid "Heading Background Image"
+msgstr ""
+
+#: includes/options/options-config.php:1178
+msgid "Upload background image for WooCommerce page heading (Hero Heading Only)."
+msgstr ""
+
+#: includes/options/options-config.php:1186
+msgid "Heading Background Text Style"
+msgstr ""
+
+#: includes/options/options-config.php:1201
+msgid "Give Single Options"
+msgstr ""
+
+#: includes/options/options-config.php:1245
+msgid "Share Facebook"
+msgstr ""
+
+#: includes/options/options-config.php:1246
+msgid "Enable share facebook for single product."
+msgstr ""
+
+#: includes/options/options-config.php:1254
+msgid "Share Twitter"
+msgstr ""
+
+#: includes/options/options-config.php:1255
+msgid "Enable share twitter for single product."
+msgstr ""
+
+#: includes/options/options-config.php:1263
+msgid "Share Linkedin"
+msgstr ""
+
+#: includes/options/options-config.php:1264
+msgid "Enable share linkedin for single product."
+msgstr ""
+
+#: includes/options/options-config.php:1272
+msgid "Share Tumblr"
+msgstr ""
+
+#: includes/options/options-config.php:1273
+msgid "Enable share tumblr for single product."
+msgstr ""
+
+#: includes/options/options-config.php:1281
+msgid "Share Google"
+msgstr ""
+
+#: includes/options/options-config.php:1282
+msgid "Enable share google for single product."
+msgstr ""
+
+#: includes/options/options-config.php:1290
+msgid "Share Pinterest"
+msgstr ""
+
+#: includes/options/options-config.php:1291
+msgid "Enable share pinterest for single product."
+msgstr ""
+
+#: includes/options/options-config.php:1299
+msgid "Share Email"
+msgstr ""
+
+#: includes/options/options-config.php:1300
+msgid "Enable share email for single product."
+msgstr ""
+
+#: includes/options/options-config.php:1310
+msgid "Portfolio Options"
+msgstr ""
+
+#: includes/options/options-config.php:1322
+msgid "Display Columns for Large Screen"
+msgstr ""
+
+#: includes/options/options-config.php:1337
+msgid "Display Columns for Medium Screen"
+msgstr ""
+
+#: includes/options/options-config.php:1352
+msgid "Display Columns for Small Screen"
+msgstr ""
+
+#: includes/options/options-config.php:1367
+msgid "Display Columns for Extra Small Screen"
+msgstr ""
+
+#: includes/options/options-config.php:1382
+msgid "Default Archive Page Portfolio Sidebar Config"
+msgstr ""
+
+#: includes/options/options-config.php:1396
+msgid "Default Archive Page Portfolio Left Sidebar"
+msgstr ""
+
+#: includes/options/options-config.php:1405
+msgid "Default Archive Page Portfolio Right Sidebar"
+msgstr ""
+
+#: includes/options/options-config.php:1416
+msgid "Single Portfolio"
+msgstr ""
+
+#: includes/options/options-config.php:1454
+msgid "Social Profiles"
+msgstr ""
+
+#: includes/options/options-config.php:1460
+#: includes/visualcomposer/vc-theme.php:329
+msgid "Facebook"
+msgstr ""
+
+#: includes/options/options-config.php:1461
+msgid "Enter your Facebook profile URL."
+msgstr ""
+
+#: includes/options/options-config.php:1467
+msgid "Instagram"
+msgstr ""
+
+#: includes/options/options-config.php:1468
+msgid "Enter your Instagram profile URL."
+msgstr ""
+
+#: includes/options/options-config.php:1474
+#: includes/visualcomposer/vc-theme.php:336
+msgid "Twitter"
+msgstr ""
+
+#: includes/options/options-config.php:1475
+msgid "Enter your Twitter profile URL."
+msgstr ""
+
+#: includes/options/options-config.php:1481
+msgid "Google+"
+msgstr ""
+
+#: includes/options/options-config.php:1482
+msgid "Enter your Google+ profile URL."
+msgstr ""
+
+#: includes/options/options-config.php:1488
+msgid "LinedIn"
+msgstr ""
+
+#: includes/options/options-config.php:1489
+msgid "Enter your LinkedIn profile URL."
+msgstr ""
+
+#: includes/options/options-config.php:1495
+#: includes/visualcomposer/vc-theme.php:343
+msgid "Pinterest"
+msgstr ""
+
+#: includes/options/options-config.php:1496
+msgid "Enter your Pinterest profile URL."
+msgstr ""
+
+#: includes/options/options-config.php:1502
+msgid "RSS"
+msgstr ""
+
+#: includes/options/options-config.php:1503
+msgid "Enter your RSS feed URL."
+msgstr ""
+
+#: includes/options/options-config.php:1509
+msgid "Tumblr"
+msgstr ""
+
+#: includes/options/options-config.php:1510
+msgid "Enter your Tumblr profile URL."
+msgstr ""
+
+#: includes/options/options-config.php:1516
+msgid "Vimeo"
+msgstr ""
+
+#: includes/options/options-config.php:1517
+msgid "Enter your Vimeo profile URL."
+msgstr ""
+
+#: includes/options/options-config.php:1523
+msgid "YouTube"
+msgstr ""
+
+#: includes/options/options-config.php:1524
+msgid "Enter your YouTube profile URL."
+msgstr ""
+
+#: includes/template.php:82
+msgid "Main menu"
+msgstr ""
+
+#: includes/template.php:83
+msgid "My Account"
+msgstr ""
+
+#: includes/template.php:89
+msgid "Sticky"
+msgstr ""
+
+#: includes/template.php:106
+msgid "Prev page"
+msgstr ""
+
+#: includes/template.php:107
+msgid "Next page"
+msgstr ""
+
+#: includes/template.php:108
+msgid "Load more"
+msgstr ""
+
+#: includes/template.php:177
+msgid "Post navigation"
+msgstr ""
+
+#: includes/template.php:181
+msgid "Published In"
+msgstr ""
+
+#: includes/template.php:183
+msgid "Previous Post"
+msgstr ""
+
+#: includes/template.php:184
+msgid "Next Post"
+msgstr ""
+
+#: includes/template.php:221
+msgid "<strong class=\"fn\">%s</strong>"
+msgstr ""
+
+#: includes/template.php:233 templates/list_comments.php:34
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:334
+#: includes/tgmpa/config.php:111
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:335
+#: includes/tgmpa/config.php:112
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:337
+#: includes/tgmpa/config.php:113
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:340
+#: includes/tgmpa/config.php:114
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:377
+#: includes/tgmpa/config.php:123
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:387
+#: includes/tgmpa/config.php:124
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:392
+#: includes/tgmpa/config.php:125
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:393
+#: includes/tgmpa/class-tgm-plugin-activation.php:917
+#: includes/tgmpa/class-tgm-plugin-activation.php:2623
+#: includes/tgmpa/class-tgm-plugin-activation.php:3670
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:394
+#: includes/tgmpa/class-tgm-plugin-activation.php:3249
+#: includes/tgmpa/config.php:126
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:395
+#: includes/tgmpa/class-tgm-plugin-activation.php:3042
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:399
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:1024
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:1024
+#: includes/tgmpa/class-tgm-plugin-activation.php:1027
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:1027
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:1211
+#: includes/tgmpa/class-tgm-plugin-activation.php:3038
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2072
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2363
+msgid "Required"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2366
+msgid "Recommended"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2382
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2385
+msgid "External Source"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2388
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2405
+msgid "Not Installed"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2409
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2411
+msgid "Active"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2417
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2420
+msgid "Requires Update"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2423
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2432
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2478
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2482
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2486
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2490
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2572
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2580
+msgid "Installed version:"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2588
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2600
+msgid "Available version:"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2623
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2637
+msgid "Plugin"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2638
+msgid "Source"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2639
+msgid "Type"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2643
+msgid "Version"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2644
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2693
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2698
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2704
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2774
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2807
+msgid "Install"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2813
+msgid "Update"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2816
+msgid "Activate"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2847
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2849
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2890
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2892
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2998
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3024
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3248
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3588
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3591
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3593
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3597
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3599
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3599
+#: includes/tgmpa/class-tgm-plugin-activation.php:3607
+msgid "Show Details"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3599
+#: includes/tgmpa/class-tgm-plugin-activation.php:3607
+msgid "Hide Details"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3600
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3602
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3605
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3607
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3608
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3610
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/tgmpa/config.php:38
+msgid "Woocommerce"
+msgstr ""
+
+#: includes/tgmpa/config.php:43
+msgid "Gavias Framework"
+msgstr ""
+
+#: includes/tgmpa/config.php:49
+msgid "Gavias Kunco Themer"
+msgstr ""
+
+#: includes/tgmpa/config.php:55
+msgid "Visual Composer"
+msgstr ""
+
+#: includes/tgmpa/config.php:61
+msgid "Slider Revolution"
+msgstr ""
+
+#: includes/tgmpa/config.php:67
+msgid "Give"
+msgstr ""
+
+#: includes/tgmpa/config.php:72
+msgid "Meta Box"
+msgstr ""
+
+#: includes/tgmpa/config.php:77
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/tgmpa/config.php:82
+msgid "MailChimp"
+msgstr ""
+
+#: includes/tgmpa/config.php:87
+msgid "Woocommerce Compare"
+msgstr ""
+
+#: includes/tgmpa/config.php:92
+msgid "Woocommerce Wishlist"
+msgstr ""
+
+#: includes/tgmpa/config.php:97
+msgid "Social Sharing WordPress Plugin"
+msgstr ""
+
+#: includes/tgmpa/config.php:115
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/config.php:116
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/config.php:117
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/config.php:118
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/config.php:119
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/config.php:120
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/config.php:121
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/config.php:122
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/config.php:127
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: includes/theme-functions.php:17
+msgid "Disable Footer"
+msgstr ""
+
+#: includes/theme-functions.php:18 includes/theme-functions.php:30
+msgid "Default Option Theme"
+msgstr ""
+
+#: includes/theme-functions.php:31 includes/visualcomposer/vc-theme.php:42
+#: includes/visualcomposer/vc-theme.php:51
+#: includes/visualcomposer/vc-theme.php:99
+#: includes/visualcomposer/vc-theme.php:1010
+#: includes/visualcomposer/vc-theme.php:1873
+#: includes/visualcomposer/vc-theme.php:2064
+msgid "Default"
+msgstr ""
+
+#: includes/theme-functions.php:168 woocommerce/global/breadcrumb.php:217
+msgid "Page"
+msgstr ""
+
+#: includes/theme-functions.php:189
+msgid "Comment navigation"
+msgstr ""
+
+#: includes/theme-functions.php:192
+msgid "Older Comments"
+msgstr ""
+
+#: includes/theme-functions.php:196
+msgid "Newer Comments"
+msgstr ""
+
+#: includes/theme-functions.php:308
+msgid "Responsive Setting | Items for large Screen"
+msgstr ""
+
+#: includes/theme-functions.php:315
+msgid "Responsive Setting | Items for Medium Screen"
+msgstr ""
+
+#: includes/theme-functions.php:322
+msgid "Responsive Setting | Items for Small Screen"
+msgstr ""
+
+#: includes/theme-functions.php:329
+msgid "Responsive Setting | Items for Extra Small Screen"
+msgstr ""
+
+#: includes/theme-functions.php:341
+msgid "Carousel Settings | Loop"
+msgstr ""
+
+#: includes/theme-functions.php:344 includes/theme-functions.php:359
+#: includes/theme-functions.php:380 includes/theme-functions.php:389
+#: includes/theme-functions.php:398 includes/theme-functions.php:407
+#: includes/theme-functions.php:416 includes/theme-functions.php:425
+msgid "Enable"
+msgstr ""
+
+#: includes/theme-functions.php:345 includes/theme-functions.php:360
+#: includes/theme-functions.php:381 includes/theme-functions.php:390
+#: includes/theme-functions.php:399 includes/theme-functions.php:408
+#: includes/theme-functions.php:417 includes/theme-functions.php:426
+msgid "Disable"
+msgstr ""
+
+#: includes/theme-functions.php:350
+msgid "Carousel Settings | Speed"
+msgstr ""
+
+#: includes/theme-functions.php:356
+msgid "Carousel Settings | Auto Play"
+msgstr ""
+
+#: includes/theme-functions.php:365
+msgid "Carousel Settings | Auto Play Timeout"
+msgstr ""
+
+#: includes/theme-functions.php:371
+msgid "Carousel Settings | Auto Play Speed"
+msgstr ""
+
+#: includes/theme-functions.php:377
+msgid "Carousel Settings | Play Hover"
+msgstr ""
+
+#: includes/theme-functions.php:386
+msgid "Carousel Settings | Navigation"
+msgstr ""
+
+#: includes/theme-functions.php:395
+msgid "Carousel Settings | Rewind Nav"
+msgstr ""
+
+#: includes/theme-functions.php:404
+msgid "Carousel Settings | Pagination"
+msgstr ""
+
+#: includes/theme-functions.php:413
+msgid "Carousel Settings | Mouse Drag"
+msgstr ""
+
+#: includes/theme-functions.php:422
+msgid "Carousel Settings | Touch Drag"
+msgstr ""
+
+#: includes/theme-hook.php:77
+msgid "Latest posts"
+msgstr ""
+
+#: includes/theme-hook.php:134 includes/woocommerce/hooks.php:63
+msgid "Back To Home"
+msgstr ""
+
+#: includes/visualcomposer/vc-event.php:10
+msgid "GVA Events Carousel"
+msgstr ""
+
+#: includes/visualcomposer/vc-event.php:17
+#: includes/visualcomposer/vc-event.php:73
+#: includes/visualcomposer/vc-event.php:122
+#: includes/visualcomposer/vc-theme.php:15
+#: includes/visualcomposer/vc-theme.php:81
+#: includes/visualcomposer/vc-theme.php:126
+#: includes/visualcomposer/vc-theme.php:388
+#: includes/visualcomposer/vc-theme.php:439
+#: includes/visualcomposer/vc-theme.php:489
+#: includes/visualcomposer/vc-theme.php:550
+#: includes/visualcomposer/vc-theme.php:692
+#: includes/visualcomposer/vc-theme.php:755
+#: includes/visualcomposer/vc-theme.php:827
+#: includes/visualcomposer/vc-theme.php:1170
+#: includes/visualcomposer/vc-theme.php:1242
+#: includes/visualcomposer/vc-theme.php:1298
+#: includes/visualcomposer/vc-theme.php:1363
+#: includes/visualcomposer/vc-theme.php:1417
+#: includes/visualcomposer/vc-theme.php:1509
+#: includes/visualcomposer/vc-theme.php:1525
+#: includes/visualcomposer/vc-theme.php:1580
+#: includes/visualcomposer/vc-theme.php:1688
+#: includes/visualcomposer/vc-theme.php:1770
+#: includes/visualcomposer/vc-theme.php:1804
+#: includes/visualcomposer/vc-theme.php:1894
+#: includes/visualcomposer/vc-theme.php:1929
+#: includes/visualcomposer/vc-theme.php:1949
+#: includes/visualcomposer/vc-theme.php:1982
+#: includes/visualcomposer/vc-theme.php:2028
+#: includes/visualcomposer/vc-woo.php:200
+msgid "Title"
+msgstr ""
+
+#: includes/visualcomposer/vc-event.php:21
+#: includes/visualcomposer/vc-event.php:77
+#: includes/visualcomposer/vc-event.php:126
+#: includes/visualcomposer/vc-portfolio.php:16
+#: includes/visualcomposer/vc-portfolio.php:97
+#: includes/visualcomposer/vc-portfolio.php:163
+#: includes/visualcomposer/vc-theme.php:19
+#: includes/visualcomposer/vc-theme.php:85
+#: includes/visualcomposer/vc-theme.php:130
+#: includes/visualcomposer/vc-theme.php:554
+#: includes/visualcomposer/vc-theme.php:696
+#: includes/visualcomposer/vc-theme.php:759
+msgid "Title of element"
+msgstr ""
+
+#: includes/visualcomposer/vc-event.php:25
+#: includes/visualcomposer/vc-event.php:81
+#: includes/visualcomposer/vc-event.php:130
+#: includes/visualcomposer/vc-give.php:24
+#: includes/visualcomposer/vc-give.php:80
+#: includes/visualcomposer/vc-give.php:139
+#: includes/visualcomposer/vc-give.php:192
+#: includes/visualcomposer/vc-portfolio.php:37
+#: includes/visualcomposer/vc-portfolio.php:111
+#: includes/visualcomposer/vc-portfolio.php:177
+#: includes/visualcomposer/vc-theme.php:32
+#: includes/visualcomposer/vc-theme.php:89
+#: includes/visualcomposer/vc-theme.php:134
+#: includes/visualcomposer/vc-woo.php:78 includes/visualcomposer/vc-woo.php:151
+msgid "Limit"
+msgstr ""
+
+#: includes/visualcomposer/vc-event.php:28
+#: includes/visualcomposer/vc-event.php:84
+#: includes/visualcomposer/vc-event.php:133
+#: includes/visualcomposer/vc-portfolio.php:40
+#: includes/visualcomposer/vc-portfolio.php:114
+#: includes/visualcomposer/vc-portfolio.php:180
+#: includes/visualcomposer/vc-theme.php:35
+#: includes/visualcomposer/vc-theme.php:92
+msgid "Number of Posts"
+msgstr ""
+
+#: includes/visualcomposer/vc-event.php:32
+#: includes/visualcomposer/vc-event.php:88
+#: includes/visualcomposer/vc-event.php:137
+#: includes/visualcomposer/vc-theme.php:401
+#: includes/visualcomposer/vc-theme.php:452
+msgid "Mode"
+msgstr ""
+
+#: includes/visualcomposer/vc-event.php:35
+#: includes/visualcomposer/vc-event.php:91
+#: includes/visualcomposer/vc-event.php:140
+msgid "Lastest Courses"
+msgstr ""
+
+#: includes/visualcomposer/vc-event.php:36
+#: includes/visualcomposer/vc-event.php:92
+#: includes/visualcomposer/vc-event.php:141
+msgid "Randown Courses"
+msgstr ""
+
+#: includes/visualcomposer/vc-event.php:41
+#: includes/visualcomposer/vc-event.php:97
+#: includes/visualcomposer/vc-event.php:146
+msgid "Events Categories"
+msgstr ""
+
+#: includes/visualcomposer/vc-event.php:49
+#: includes/visualcomposer/vc-event.php:105
+#: includes/visualcomposer/vc-event.php:154
+#: includes/visualcomposer/vc-give.php:52
+#: includes/visualcomposer/vc-give.php:108
+#: includes/visualcomposer/vc-give.php:167
+#: includes/visualcomposer/vc-give.php:220
+#: includes/visualcomposer/vc-portfolio.php:75
+#: includes/visualcomposer/vc-portfolio.php:140
+#: includes/visualcomposer/vc-portfolio.php:204
+#: includes/visualcomposer/vc-theme.php:57
+#: includes/visualcomposer/vc-theme.php:105
+#: includes/visualcomposer/vc-theme.php:151
+#: includes/visualcomposer/vc-theme.php:209
+#: includes/visualcomposer/vc-theme.php:273
+#: includes/visualcomposer/vc-theme.php:367
+#: includes/visualcomposer/vc-theme.php:418
+#: includes/visualcomposer/vc-theme.php:469
+#: includes/visualcomposer/vc-theme.php:535
+#: includes/visualcomposer/vc-theme.php:677
+#: includes/visualcomposer/vc-theme.php:739
+#: includes/visualcomposer/vc-theme.php:811
+#: includes/visualcomposer/vc-theme.php:851
+#: includes/visualcomposer/vc-theme.php:907
+#: includes/visualcomposer/vc-theme.php:967
+#: includes/visualcomposer/vc-theme.php:1022
+#: includes/visualcomposer/vc-theme.php:1061
+#: includes/visualcomposer/vc-theme.php:1114
+#: includes/visualcomposer/vc-theme.php:1154
+#: includes/visualcomposer/vc-theme.php:1226
+#: includes/visualcomposer/vc-theme.php:1282
+#: includes/visualcomposer/vc-theme.php:1347
+#: includes/visualcomposer/vc-theme.php:1401
+#: includes/visualcomposer/vc-theme.php:1493
+#: includes/visualcomposer/vc-theme.php:1564
+#: includes/visualcomposer/vc-theme.php:1672
+#: includes/visualcomposer/vc-theme.php:1754
+#: includes/visualcomposer/vc-theme.php:1788
+#: includes/visualcomposer/vc-theme.php:1849
+#: includes/visualcomposer/vc-theme.php:1914
+#: includes/visualcomposer/vc-theme.php:1967
+#: includes/visualcomposer/vc-theme.php:2013
+#: includes/visualcomposer/vc-theme.php:2082
+#: includes/visualcomposer/vc-theme.php:2160
+#: includes/visualcomposer/vc-woo.php:112
+#: includes/visualcomposer/vc-woo.php:182
+#: includes/visualcomposer/vc-woo.php:269
+#: includes/visualcomposer/vc-woo.php:340
+msgid "Extra class name"
+msgstr ""
+
+#: includes/visualcomposer/vc-event.php:51
+#: includes/visualcomposer/vc-event.php:107
+#: includes/visualcomposer/vc-event.php:156
+#: includes/visualcomposer/vc-give.php:54
+#: includes/visualcomposer/vc-give.php:110
+#: includes/visualcomposer/vc-give.php:169
+#: includes/visualcomposer/vc-give.php:222
+#: includes/visualcomposer/vc-portfolio.php:77
+#: includes/visualcomposer/vc-portfolio.php:142
+#: includes/visualcomposer/vc-portfolio.php:206
+#: includes/visualcomposer/vc-theme.php:59
+#: includes/visualcomposer/vc-theme.php:107
+#: includes/visualcomposer/vc-theme.php:153
+#: includes/visualcomposer/vc-theme.php:211
+#: includes/visualcomposer/vc-theme.php:275
+#: includes/visualcomposer/vc-theme.php:369
+#: includes/visualcomposer/vc-theme.php:420
+#: includes/visualcomposer/vc-theme.php:471
+#: includes/visualcomposer/vc-theme.php:537
+#: includes/visualcomposer/vc-theme.php:679
+#: includes/visualcomposer/vc-theme.php:741
+#: includes/visualcomposer/vc-theme.php:813
+#: includes/visualcomposer/vc-theme.php:853
+#: includes/visualcomposer/vc-theme.php:909
+#: includes/visualcomposer/vc-theme.php:969
+#: includes/visualcomposer/vc-theme.php:1024
+#: includes/visualcomposer/vc-theme.php:1063
+#: includes/visualcomposer/vc-theme.php:1116
+#: includes/visualcomposer/vc-theme.php:1156
+#: includes/visualcomposer/vc-theme.php:1228
+#: includes/visualcomposer/vc-theme.php:1284
+#: includes/visualcomposer/vc-theme.php:1349
+#: includes/visualcomposer/vc-theme.php:1403
+#: includes/visualcomposer/vc-theme.php:1495
+#: includes/visualcomposer/vc-theme.php:1566
+#: includes/visualcomposer/vc-theme.php:1674
+#: includes/visualcomposer/vc-theme.php:1756
+#: includes/visualcomposer/vc-theme.php:1790
+#: includes/visualcomposer/vc-theme.php:1851
+#: includes/visualcomposer/vc-theme.php:1916
+#: includes/visualcomposer/vc-theme.php:1969
+#: includes/visualcomposer/vc-theme.php:2015
+#: includes/visualcomposer/vc-theme.php:2084
+#: includes/visualcomposer/vc-woo.php:114
+#: includes/visualcomposer/vc-woo.php:184
+#: includes/visualcomposer/vc-woo.php:271
+#: includes/visualcomposer/vc-woo.php:342
+msgid "If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: includes/visualcomposer/vc-event.php:66
+msgid "GVA Events List"
+msgstr ""
+
+#: includes/visualcomposer/vc-event.php:115
+msgid "GVA Events List Small"
+msgstr ""
+
+#: includes/visualcomposer/vc-give.php:10
+msgid "GVA Causes/Gives Grid"
+msgstr ""
+
+#: includes/visualcomposer/vc-give.php:17
+#: includes/visualcomposer/vc-give.php:72
+#: includes/visualcomposer/vc-give.php:131
+#: includes/visualcomposer/vc-give.php:184
+#: includes/visualcomposer/vc-theme.php:867
+#: includes/visualcomposer/vc-theme.php:930
+#: includes/visualcomposer/vc-theme.php:983
+#: includes/visualcomposer/vc-theme.php:1043
+#: includes/visualcomposer/vc-theme.php:1077
+#: includes/visualcomposer/vc-theme.php:1130
+#: includes/visualcomposer/vc-woo.php:28 includes/visualcomposer/vc-woo.php:129
+#: includes/visualcomposer/vc-woo.php:297
+msgid "Block title"
+msgstr ""
+
+#: includes/visualcomposer/vc-give.php:31
+#: includes/visualcomposer/vc-give.php:146
+#: includes/visualcomposer/vc-give.php:199
+msgid "Course Categories"
+msgstr ""
+
+#: includes/visualcomposer/vc-give.php:39
+#: includes/visualcomposer/vc-give.php:100
+#: includes/visualcomposer/vc-give.php:159
+#: includes/visualcomposer/vc-give.php:212
+#: includes/visualcomposer/vc-theme.php:194
+#: includes/visualcomposer/vc-theme.php:252
+#: includes/visualcomposer/vc-theme.php:890
+msgid "Number of words in excerpt"
+msgstr ""
+
+#: includes/visualcomposer/vc-give.php:47
+#: includes/visualcomposer/vc-portfolio.php:65
+#: includes/visualcomposer/vc-portfolio.php:130
+#: includes/visualcomposer/vc-portfolio.php:199
+msgid "Enable Pagination"
+msgstr ""
+
+#: includes/visualcomposer/vc-give.php:65
+msgid "GVA Causes/Gives Carousel"
+msgstr ""
+
+#: includes/visualcomposer/vc-give.php:87
+msgid "Causes/Gives Categories"
+msgstr ""
+
+#: includes/visualcomposer/vc-give.php:95
+#: includes/visualcomposer/vc-give.php:154
+#: includes/visualcomposer/vc-give.php:207
+msgid "Featured Causes/Gives"
+msgstr ""
+
+#: includes/visualcomposer/vc-give.php:124
+msgid "GVA Causes/Gives Carousel 2"
+msgstr ""
+
+#: includes/visualcomposer/vc-give.php:177
+msgid "GVA Causes/Gives Carousel 3"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:69
+msgid "Extra class name inner"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:75
+msgid "Layout Setting"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:78
+msgid "Boxed"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:79
+msgid "Wide - Full Width"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:85
+msgid "Style Space"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:88
+msgid "-- Default --"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:89
+msgid "Remove padding top"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:90
+msgid "Remove padding bottom"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:91
+msgid "Remove padding for row"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:92
+msgid "Remove padding for colums of row"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:93
+msgid "Remove padding for [colums, row]"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:94
+msgid "Padding Large"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:95
+msgid "Padding Medium"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:96
+msgid "Padding Small"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:97
+msgid "Padding Top Large, Remore Padding Bottom"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:98
+msgid "Padding Bottom Large"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:99
+msgid "Padding Row 120px, Responsive"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:105
+msgid "Custom Background"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:108
+#: includes/visualcomposer/vc-theme.php:637
+#: includes/visualcomposer/vc-theme.php:650
+msgid "-- None --"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:109
+msgid "Background Of Theme"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:110
+msgid "Background Of Theme Second"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:111
+msgid "Background Dark"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:112
+msgid "Background Position Center"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:113
+msgid "Background Position Left"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:114
+msgid "Background Position Right"
+msgstr ""
+
+#: includes/visualcomposer/vc-override.php:115
+msgid "Background Position Bottom"
+msgstr ""
+
+#: includes/visualcomposer/vc-portfolio.php:6
+msgid "GVA Portfolio Grid"
+msgstr ""
+
+#: includes/visualcomposer/vc-portfolio.php:13
+#: includes/visualcomposer/vc-portfolio.php:94
+#: includes/visualcomposer/vc-portfolio.php:160
+msgid "Title Admin"
+msgstr ""
+
+#: includes/visualcomposer/vc-portfolio.php:20
+#: includes/visualcomposer/vc-portfolio.php:101
+#: includes/visualcomposer/vc-portfolio.php:167
+msgid "Select Porfolio IDs"
+msgstr ""
+
+#: includes/visualcomposer/vc-portfolio.php:30
+msgid "Use Custom Categories ID"
+msgstr ""
+
+#: includes/visualcomposer/vc-portfolio.php:33
+msgid "Element only display custom categories & portfolio in custom categories"
+msgstr ""
+
+#: includes/visualcomposer/vc-portfolio.php:44
+#: includes/visualcomposer/vc-portfolio.php:184
+#: includes/visualcomposer/vc-theme.php:39
+#: includes/visualcomposer/vc-theme.php:840
+msgid "Style display"
+msgstr ""
+
+#: includes/visualcomposer/vc-portfolio.php:47
+#: includes/visualcomposer/vc-portfolio.php:187
+#: includes/visualcomposer/vc-theme.php:901
+msgid "Style #1"
+msgstr ""
+
+#: includes/visualcomposer/vc-portfolio.php:48
+#: includes/visualcomposer/vc-portfolio.php:188
+#: includes/visualcomposer/vc-theme.php:902
+msgid "Style #2"
+msgstr ""
+
+#: includes/visualcomposer/vc-portfolio.php:53
+#: includes/visualcomposer/vc-portfolio.php:118
+msgid "Enable Filter"
+msgstr ""
+
+#: includes/visualcomposer/vc-portfolio.php:59
+#: includes/visualcomposer/vc-portfolio.php:124
+#: includes/visualcomposer/vc-portfolio.php:193
+msgid "Remove Padding"
+msgstr ""
+
+#: includes/visualcomposer/vc-portfolio.php:70
+#: includes/visualcomposer/vc-portfolio.php:135
+msgid "Link All Portfolio"
+msgstr ""
+
+#: includes/visualcomposer/vc-portfolio.php:87
+msgid "GVA Portfolio Slideset"
+msgstr ""
+
+#: includes/visualcomposer/vc-portfolio.php:153
+msgid "GVA Portfolio Carousel"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:7
+msgid "GVA Testimonial Carousel"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:23
+msgid "Show Avatar"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:26
+msgid "Show"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:27
+msgid "Hide"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:43
+#: includes/visualcomposer/vc-theme.php:146
+#: includes/visualcomposer/vc-theme.php:204
+#: includes/visualcomposer/vc-theme.php:262
+#: includes/visualcomposer/vc-theme.php:784
+#: includes/visualcomposer/vc-theme.php:1270
+msgid "Style 2"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:48
+#: includes/visualcomposer/vc-theme.php:96
+msgid "Text Color Style"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:74
+msgid "GVA Testimonial Grid"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:119
+msgid "GVA Brands"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:138
+msgid "Number of Brands"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:142
+#: includes/visualcomposer/vc-theme.php:200
+#: includes/visualcomposer/vc-theme.php:258
+#: includes/visualcomposer/vc-theme.php:356
+#: includes/visualcomposer/vc-theme.php:780
+#: includes/visualcomposer/vc-theme.php:1266
+#: includes/visualcomposer/vc-woo.php:58 includes/visualcomposer/vc-woo.php:243
+msgid "Style"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:145
+#: includes/visualcomposer/vc-theme.php:203
+#: includes/visualcomposer/vc-theme.php:261
+#: includes/visualcomposer/vc-theme.php:1269
+msgid "Style 1"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:167
+msgid "Team Carousel"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:171
+#: includes/visualcomposer/vc-theme.php:228
+#: includes/visualcomposer/vc-theme.php:383
+#: includes/visualcomposer/vc-theme.php:434
+#: includes/visualcomposer/vc-theme.php:2093
+#: includes/visualcomposer/vc-woo.php:196
+#: includes/visualcomposer/vc-woo.php:293
+msgid "Gavias Element"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:175
+#: includes/visualcomposer/vc-theme.php:233
+msgid "Title Administrator"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:182
+#: includes/visualcomposer/vc-theme.php:240
+#: includes/visualcomposer/vc-theme.php:395
+#: includes/visualcomposer/vc-theme.php:446
+#: includes/visualcomposer/vc-theme.php:1183
+msgid "Number"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:188
+#: includes/visualcomposer/vc-theme.php:246
+msgid "Show Skills"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:225
+msgid "Team Grid"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:267
+msgid "Show pagination"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:285
+msgid "GVA Team"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:292
+msgid "Team name"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:299
+msgid "Team job"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:305
+msgid "Team Photo"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:311
+#: includes/visualcomposer/vc-theme.php:706
+#: includes/visualcomposer/vc-theme.php:834
+#: includes/visualcomposer/vc-theme.php:1195
+#: includes/visualcomposer/vc-theme.php:1255
+#: includes/visualcomposer/vc-theme.php:1323
+#: includes/visualcomposer/vc-theme.php:1370
+#: includes/visualcomposer/vc-theme.php:1424
+#: includes/visualcomposer/vc-theme.php:1531
+#: includes/visualcomposer/vc-theme.php:1707
+#: includes/visualcomposer/vc-theme.php:1816
+#: includes/visualcomposer/vc-theme.php:1900
+#: includes/visualcomposer/vc-theme.php:2034
+msgid "Content"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:317
+#: includes/visualcomposer/vc-theme.php:604
+#: includes/visualcomposer/vc-theme.php:716
+#: includes/visualcomposer/vc-theme.php:1261
+#: includes/visualcomposer/vc-theme.php:1329
+#: includes/visualcomposer/vc-theme.php:1389
+#: includes/visualcomposer/vc-theme.php:1429
+#: includes/visualcomposer/vc-theme.php:1536
+#: includes/visualcomposer/vc-theme.php:1736
+#: includes/visualcomposer/vc-theme.php:1834
+#: includes/visualcomposer/vc-theme.php:1957
+#: includes/visualcomposer/vc-theme.php:1998
+#: includes/visualcomposer/vc-theme.php:2044
+msgid "Link"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:323
+msgid "Google Plus"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:350
+msgid "Linked In"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:359
+msgid "Vertical"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:360
+msgid "Vertical avatar small"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:361
+msgid "Horizontal"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:362
+msgid "Circle"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:380
+msgid "GVA Gallery Grid"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:404
+#: includes/visualcomposer/vc-theme.php:455
+msgid "Lastest Gallery"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:405
+#: includes/visualcomposer/vc-theme.php:456
+msgid "Randown Gallery"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:410
+#: includes/visualcomposer/vc-theme.php:461
+msgid "Gallery Categories"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:431
+msgid "GVA Gallery Carousel"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:482
+msgid "GVA Contact info"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:502
+msgid "Contact Photo"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:528
+msgid "Website"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:543
+msgid "GVA Icon Box"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:566
+#: includes/visualcomposer/vc-theme.php:1989
+#: includes/visualcomposer/vc-theme.php:2040
+msgid "Image Icon"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:578
+msgid "Hidden Description on tablet, mobile device"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:582
+#: includes/visualcomposer/vc-theme.php:1201
+#: includes/visualcomposer/vc-theme.php:1380
+msgid "Icon Position"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:585
+msgid "Top Center"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:586
+msgid "Top Center 2"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:587
+msgid "Top Left"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:588
+msgid "Top Right"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:591
+msgid "Top Left Title"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:592
+msgid "Top Right Title"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:597
+msgid "Background Box"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:611
+msgid "Background icon"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:617
+msgid "Icon Color"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:623
+msgid "Icon Width"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:626
+msgid "Fa 1x small"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:627
+msgid "Fa 2x"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:628
+msgid "Fa 3x"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:629
+msgid "Fa 4x"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:634
+msgid "Icon Border"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:638
+msgid "Border 1px"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:639
+msgid "Border 2px"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:640
+msgid "Border 3px"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:641
+msgid "Border 4px"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:642
+msgid "Border 5px"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:647
+msgid "Icon Radius"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:651
+msgid "Radius 1x"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:652
+msgid "Radius 2x"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:653
+msgid "Radius 5x"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:658
+msgid "Icon Box Shadow"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:663
+#: includes/visualcomposer/vc-theme.php:802
+#: includes/visualcomposer/vc-theme.php:1463
+msgid "Skin Text for box"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:666
+#: includes/visualcomposer/vc-theme.php:1546
+msgid "Text Dark"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:667
+#: includes/visualcomposer/vc-theme.php:1547
+#: includes/visualcomposer/vc-theme.php:1874
+#: includes/visualcomposer/vc-theme.php:2065
+msgid "Text Light"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:673
+#: includes/visualcomposer/vc-theme.php:735
+#: includes/visualcomposer/vc-theme.php:1275
+#: includes/visualcomposer/vc-theme.php:1487
+#: includes/visualcomposer/vc-theme.php:1748
+#: includes/visualcomposer/vc-theme.php:1840
+#: includes/visualcomposer/vc-theme.php:2071
+msgid "Open in new window"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:685
+msgid "GVA Hover Box"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:702
+#: includes/visualcomposer/vc-theme.php:1810
+msgid "Image"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:711
+msgid "Content Backend"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:721
+#: includes/visualcomposer/vc-theme.php:1962
+#: includes/visualcomposer/vc-theme.php:2049
+msgid "Text Link"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:727
+msgid "Min-height of Box"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:748
+msgid "GVA Block Heading"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:763
+msgid "Sub Title"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:783
+msgid "Style Default"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:785
+msgid "Style 3"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:786
+msgid "Style 4"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:791
+msgid "Align"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:796
+msgid "Left - Description Right"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:805
+#: includes/visualcomposer/vc-theme.php:1220
+#: includes/visualcomposer/vc-theme.php:1466
+msgid "Text dark"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:806
+#: includes/visualcomposer/vc-theme.php:1221
+#: includes/visualcomposer/vc-theme.php:1465
+msgid "Text light"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:820
+msgid "GVA Social Links"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:830
+msgid "This element display link socials media for theme setting"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:843
+msgid "Default - Align right"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:844
+msgid "Version 2 - Color White, Align center"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:845
+msgid "Version 3 - Align center"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:846
+msgid "Version 4 - Align right"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:860
+msgid "GVA Blogs Carousel"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:875
+#: includes/visualcomposer/vc-theme.php:938
+#: includes/visualcomposer/vc-theme.php:991
+#: includes/visualcomposer/vc-theme.php:1051
+#: includes/visualcomposer/vc-theme.php:1085
+#: includes/visualcomposer/vc-theme.php:1138
+msgid "Grids content"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:881
+#: includes/visualcomposer/vc-theme.php:944
+#: includes/visualcomposer/vc-theme.php:997
+#: includes/visualcomposer/vc-theme.php:1057
+#: includes/visualcomposer/vc-theme.php:1091
+#: includes/visualcomposer/vc-theme.php:1144
+msgid "Create WordPress loop, to populate content from your site."
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:885
+msgid "Show post excerpt"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:898
+msgid "Post style"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:923
+msgid "GVA Blogs Masonry"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:948
+#: includes/visualcomposer/vc-woo.php:50
+msgid "Columns"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:952
+#: includes/visualcomposer/vc-woo.php:54
+msgid "Number of Columns"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:956
+#: includes/visualcomposer/vc-theme.php:1001
+#: includes/visualcomposer/vc-theme.php:1107
+msgid "Show Pagination"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:960
+#: includes/visualcomposer/vc-woo.php:334
+msgid "Off"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:961
+#: includes/visualcomposer/vc-woo.php:335
+msgid "On"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:963
+#: includes/visualcomposer/vc-theme.php:1003
+#: includes/visualcomposer/vc-theme.php:1110
+msgid "Show pagination on bottom element"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:976
+msgid "GVA Blogs Grid"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1007
+msgid "Style of Post"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1016
+msgid "Image size"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1018
+msgid "Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" or other sizes defined by theme). Default = post-thumbnail"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1036
+msgid "GVA Blogs Stick List"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1070
+msgid "GVA Blogs List"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1095
+msgid "Excerpt Words"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1101
+msgid "Show Read more button"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1123
+msgid "GVA Blogs Small List"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1148
+msgid "Show Excerpt"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1163
+msgid "GVA Counter"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1177
+msgid "Class of Icon"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1189
+msgid "Symbol"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1204
+msgid "Icon left"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1205
+msgid "Icon top"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1206
+msgid "Icon top 2"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1211
+msgid "Color of Icon"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1217
+msgid "Text color"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1235
+msgid "GVA Image width Content"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1291
+msgid "GVA Pricing"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1305
+msgid "Price"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1311
+msgid "Currency"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1317
+msgid "Period"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1335
+#: includes/visualcomposer/vc-theme.php:1742
+msgid "Link Title"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1356
+msgid "GVA Box Card"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1375
+#: includes/visualcomposer/vc-theme.php:1888
+msgid "Icon Class"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1383
+msgid "Icon Left"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1384
+msgid "Icon Right"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1395
+#: includes/visualcomposer/vc-theme.php:1558
+msgid "Min Height"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1410
+msgid "GVA Call To Action"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1434
+msgid "Text of Button"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1439
+msgid "Button Align"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1442
+msgid "Button Left"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1443
+msgid "Button Right"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1444
+msgid "Button Right 2"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1445
+msgid "Button Bottom Left"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1446
+msgid "Button Bottom Center"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1451
+msgid "Box Background"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1456
+msgid "Set Max width for content"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1458
+msgid "e.g 660px"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1472
+msgid "Style Button"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1474
+msgid "Button default of theme"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1475
+msgid "Button white"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1480
+msgid "Link Video"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1482
+msgid "e.g: https://www.youtube.com/watch?v=4g7zRxRN1Xk"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1488
+#: includes/visualcomposer/vc-theme.php:1750
+#: includes/visualcomposer/vc-theme.php:2072
+msgid "Adds a target=\"_blank\" attribute to the link"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1502
+msgid "GVA Quotes Rotator"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1516
+#: includes/visualcomposer/vc-theme.php:1879
+#: includes/visualcomposer/vc-woo.php:208
+msgid "Items"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1543
+msgid "Skin Text"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1552
+msgid "Max Width"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1573
+msgid "GVA Google Map"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1588
+msgid "Map Type"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1590
+msgid "ROADMAP"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1591
+msgid "HYBRID"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1592
+msgid "SATELLITE"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1593
+msgid "TERRAIN"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1598
+msgid "Latitude, Longitude for map"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1601
+msgid "eg: 21.0173222,105.78405279999993"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1605
+msgid "Map height"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1608
+msgid "Enter map height (in pixels or leave empty for responsive map), eg: 400px"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1612
+msgid "Text Address"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1618
+msgid "Descption"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1636
+msgid "Facebook Link"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1642
+msgid "Twitter Link"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1648
+msgid "Instagram Link"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1654
+msgid "Dribbble Link"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1660
+msgid "Linkedin Link"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1666
+msgid "Pinterest Link"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1681
+msgid "GVA Box Parallax"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1695
+msgid "SubTitle"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1701
+msgid "Photo"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1714
+#: includes/visualcomposer/vc-theme.php:1871
+msgid "Content Align"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1722
+msgid "Background content"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1725
+msgid "ackground color for content. e.g. #f5f5f5"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1729
+msgid "Content color"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1732
+msgid "Color for content. e.g. #f5f5f5. default color-text for theme"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1763
+msgid "GVA Video Box"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1776
+msgid "Url Video (Youtube/Vimeo)"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1797
+msgid "GVA Partners"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1822
+msgid "Category"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1843
+msgid "No"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1844
+msgid "Yes"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1857
+msgid "GVA Tabs Content"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1864
+msgid "Title for Administrator"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1922
+msgid "GVA Service Box"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1940
+msgid "Features"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1975
+msgid "GVA Job Box"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:1993
+msgid "Job Type"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:2003
+msgid "Company"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:2021
+msgid "GVA Box Color"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:2051
+#: vc_templates/gva_quotes_rotator.php:30
+msgid "Read More"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:2055
+msgid "Background color"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:2057
+msgid "Background color fox box. e.g: #ccc"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:2062
+msgid "Text Style"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:2076
+#: includes/visualcomposer/vc-theme.php:2119
+msgid "Height"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:2078
+msgid "Set Min Height for box"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:2090
+msgid "GVA Facebook Box"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:2094
+msgid "Create title for one block"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:2098
+msgid "Widget"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:2100
+msgid "Find us on Facebook"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:2101
+msgid "Enter heading title."
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:2106
+msgid "Facebook Page URL"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:2112
+msgid "Width"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:2126
+msgid "Color Scheme"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:2132
+msgid "Select Color Scheme."
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:2136
+msgid "Show faces"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:2144
+msgid "Show stream"
+msgstr ""
+
+#: includes/visualcomposer/vc-theme.php:2152
+msgid "Show facebook header"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:21
+msgid "GVA Products"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:36 includes/visualcomposer/vc-woo.php:137
+msgid "Product type"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:46 includes/visualcomposer/vc-woo.php:147
+msgid "Select type of product"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:61 includes/visualcomposer/vc-woo.php:246
+msgid "Gird Display"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:62 includes/visualcomposer/vc-woo.php:247
+msgid "Carousel Display"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:63
+msgid "Stick Product v1"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:64
+msgid "Stick Product v2"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:70 includes/visualcomposer/vc-woo.php:277
+msgid "Rows for carousel display"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:73 includes/visualcomposer/vc-woo.php:280
+msgid "Choose row display for carousel (Main products)"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:82 includes/visualcomposer/vc-woo.php:154
+msgid "Number of Products"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:86 includes/visualcomposer/vc-woo.php:158
+#: includes/visualcomposer/vc-woo.php:235
+#: includes/visualcomposer/vc-woo.php:305
+msgid "Product Categories"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:99 includes/visualcomposer/vc-woo.php:170
+msgid "Product IDs"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:108
+#: includes/visualcomposer/vc-woo.php:178
+msgid "Enter product name or slug to search"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:122
+msgid "GVA Products List"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:192
+msgid "GVA Products Tabs Ajax"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:194
+msgid "Display BestSeller, TopRated ... Products In tabs"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:218
+msgid "Name"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:223
+msgid "Product Type"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:226
+msgid "Latest Products"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:227
+msgid "Featured Products"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:228
+msgid "BestSeller Products"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:229
+msgid "TopRated Products"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:230
+msgid "Special Products"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:255
+msgid "Number of products to show"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:261
+msgid "Columns count"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:264
+#: includes/visualcomposer/vc-woo.php:327
+msgid "Select columns count."
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:290
+msgid "GVA Deals"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:318
+msgid "Number of categories to show"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:324
+msgid "Columns count display"
+msgstr ""
+
+#: includes/visualcomposer/vc-woo.php:331
+msgid "Show Description"
+msgstr ""
+
+#: includes/woocommerce/functions.php:171
+msgid "View your shopping cart"
+msgstr ""
+
+#: includes/woocommerce/hooks.php:115
+msgid "Grid"
+msgstr ""
+
+#: includes/woocommerce/hooks.php:116
+msgid "List"
+msgstr ""
+
+#: search.php:66
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: searchform.php:15
+msgid "Search..."
+msgstr ""
+
+#: single-gva_team.php:38
+msgid "Contact Info"
+msgstr ""
+
+#: single-gva_team.php:39
+msgid "Email: "
+msgstr ""
+
+#: single-gva_team.php:40
+msgid "Phone: "
+msgstr ""
+
+#: single-gva_team.php:60
+msgid "Educations"
+msgstr ""
+
+#: single-gva_team.php:77
+msgid "Skills"
+msgstr ""
+
+#: templates/list_comments.php:27
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: templates/list_comments.php:28
+msgid " - Edit"
+msgstr ""
+
+#: templates/list_comments.php:29
+msgid " - Reply"
+msgstr ""
+
+#: templates/other/sharebox-post.php:15
+msgid "Share: "
+msgstr ""
+
+#: templates/portfolio/content-item-v1.php:8
+#: templates/portfolio/content-item-v2.php:8
+#: templates/portfolio/content-item-v3.php:8
+msgid "View all posts in %s"
+msgstr ""
+
+#: vc_templates/gva_give_carousel_2.php:57
+#: vc_templates/gva_give_carousel_3.php:70
+msgid "View all campaign in %s"
+msgstr ""
+
+#: vc_templates/gva_portfolio_grid.php:63
+#: vc_templates/gva_portfolio_slideset.php:35
+msgid "All"
+msgstr ""
+
+#: vc_templates/gva_portfolio_grid.php:75
+msgid "View All"
+msgstr ""
+
+#: vc_templates/gva_pricing.php:8
+msgid "Recommended Plan"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:59
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:75
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:83
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:88
+msgid "View Cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:89
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:73
+msgid "Products tagged &ldquo;"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:101 woocommerce/global/breadcrumb.php:203
+msgid "Search results for &ldquo;"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:157
+msgid "Error 404"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:207
+msgid "Posts tagged &ldquo;"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:212
+msgid "Author:"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:16
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:16
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/quickview/product-image.php:23
+msgid "Placeholder"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:16
+msgid "n/a"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:24
+msgid "<span class=\"title\">SKU:</span>"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:28
+msgid "<span class=\"title\">Category:</span>"
+msgid_plural "<span class=\"title\">Categories:</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:30
+msgid "<span class=\"title\">Tag:</span>"
+msgid_plural "<span class=\"title\">Tags:</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/rating.php:27
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:29
+msgid "out of %s5%s"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:30
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/rating.php:33
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/sale-flash.php:16
+msgid "Sale"
+msgstr ""
+
+#: woocommerce/single-product/tabs/additional-information.php:17
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:14
+msgid "Product Description"
+msgstr ""
+#. Theme Name of the plugin/theme
+msgid "Kunco"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://gaviasthemes.com/kunco/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The 2018 theme for WordPress is a fully responsive theme that looks great on any device."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Gaviasthemes Team"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://gaviasthemes.com/"
+msgstr ""
