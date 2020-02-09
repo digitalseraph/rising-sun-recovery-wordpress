@@ -19,7 +19,32 @@ Step by step instructions on installing the application on your local machine
 
 1. Clone this repo
 2. Setup Homestead
-3. Browse to url (risingsunrecovery.test)
+    1. You may need to add the following line to the nginx configuration to allow larger file uploads
+    2. SSH into the vagrant box: `vagrant box ssh` or `homestead ssh`
+    3. Edit the file located at `/etc/nginx/site-available/risingsunrecovery.test`
+    4. Add this line under the server block: `client_max_body_size = 500m`
+3. Browse to url (<http://risingsunrecovery.test>)
+4. Start the WordPress quick setup
+
+## WordPress Information
+
+This site uses the Kunco Theme from ThemeForest. This theme uses the following WordPress Plugins:
+
+* **Contact Form 7**: Allow you create contact forms on Contact Page.
+* **MailChimp**: to use newsletter function
+* **Revolution Slider**: premium responsive slider.
+* **Visual Composer**: powerful visual composer to create page layout.
+* **WooCommerce**: The Shop engine for your WordPress site.
+* **Gaviasthemer for Themes**: Implement rick functions for themes base on wpo framework and load widgets for theme used.
+* **Metabox**: Create custom meta boxes and custom fields for any post type in WordPress.
+
+### Plugins
+
+Some plugins may require additional setup. Details are here.
+
+#### WooCommerce
+
+1. Browse to <http://risingsunrecovery.test/wp-admin/index.php?page=wc-setup>
 
 #### Creating an Admin User Account
 
