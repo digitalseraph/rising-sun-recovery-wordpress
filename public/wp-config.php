@@ -18,24 +18,44 @@
  * @package WordPress
  */
 
+/** Composer Autoloader **/
+require_once realpath(__DIR__.'/../vendor/autoload.php');
+
+/** DotEnv Setup **/
+(Dotenv\Dotenv::createImmutable(__DIR__.'/../'))->load();
+
+/** ENvironment Setups **/
+define('ENVIRONMENT_DEV', 'dev');
+define('ENVIRONMENT_STAGE', 'stage');
+define('ENVIRONMENT_PROD', 'prod');
+define('ENVIRONMENT', getenv('ENVIRONMENT'));
+
+/** no errors on production **/
+if (ENVIRONMENT === ENVIRONMENT_PROD) {
+    error_reporting(0);
+    @ini_set('display_errors', 0);
+}
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'rising_sun' );
+define( 'DB_NAME', getenv('DB_NAME') );
 
 /** MySQL database username */
-define( 'DB_USER', 'homestead' );
+define( 'DB_USER', getenv('DB_USER') );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'secret' );
+define( 'DB_PASSWORD', getenv('DB_PASSWORD') );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', getenv('DB_HOST') );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The Database Collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
+
+define('SAVEQUERIES', (bool) getenv('DB_SAVE_QUERIES'));
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -63,7 +83,7 @@ define( 'NONCE_SALT',       '9WIpgqdQYSX#VsO7M)z=ev3StWFaTyNI52o/YOfJ&zZqxq#eB#L
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wp_';
+$table_prefix = getenv('DB_PREFIX');
 
 /**
  * For developers: WordPress debugging mode.
@@ -77,7 +97,9 @@ $table_prefix = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', (bool) getenv('WP_DEBUG') );
+
+define('WP_AUTO_UPDATE_CORE', (bool) getenv('WP_AUTO_UPDATE_CORE'));
 
 /* That's all, stop editing! Happy publishing. */
 
