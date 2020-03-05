@@ -1,0 +1,132 @@
+html{
+	overflow-x: hidden!important;
+}
+body{
+	overflow-x: hidden!important;
+	@include transition(all 0.35s);
+	&.boxed-layout, &.boxed{
+		background: #efefef;
+		max-width: 1440px;
+	   @include box-shadow(0px 5px 5px rgba(0, 0, 0, 0.15));
+    	margin: 0 auto;    
+    	.wrapper-page{
+    		background: #fff;
+    	}
+	}
+	&.open-off-canvas{
+	   &:after{
+	   	content: "";
+	   	background: rgba(0, 0, 0, 0.5);
+	   	position: absolute;
+	   	top: 0;
+	   	left: 0;
+	   	@include size(100%, 5000px);
+	   	z-index: 99;
+	   }
+	}
+  	.wrapper-page{
+  		background: $white;
+  		position: relative;
+  	}
+	.page{
+		position: relative;
+	}
+   .container-layout-content{
+      &.container{
+         margin-bottom: 35px;
+      }
+   }
+}
+
+.base-layout{
+   &.has-sidebar{
+   	.container{
+   		width: 100%!important;
+   		padding: 0!important;
+   	}
+   }
+}
+
+.page-fullscreen{
+	.custom-breadcrumb, .breadcrumb{
+		display: none;
+	}
+}
+
+//------------- Main content -------------------------
+//----------------------------------------------------
+.main-page-content{
+	position: relative;
+	z-index: 99;
+}
+
+#wp-content{
+	min-height: 150px;
+	background: $white;
+}
+
+//Footer
+#wp-footer{
+	background: #484848;
+	color: #fff;
+   padding-top: 20px;
+	a{
+		color: #fff;
+		&:hover{
+			color: $theme-color!important;
+		}
+	}
+	.widget, .wpb_single_image, .wpb_content_element {
+		margin-bottom: 30px;
+	  .widget-title, .widgettitle, .wpb_singleimage_heading{
+	  		color: $theme-color;
+	  		&:before, &:after{
+	  			background: $theme-color;
+	  		}
+	  	}
+   }
+   .footer-main{
+   	> p{
+   		display: none;
+   	}
+   }
+   .vc_row{
+      padding-top: 50px;
+      padding-bottom: 50px;
+   }
+}
+
+//Copyright
+.copyright{
+	text-align: center;
+	padding: $copyright-padding;
+	background: #3e3d3d;
+	padding: 20px 0 20px;
+}
+
+.return-top{
+	background-color: #444444;
+	border: 2px solid #444444;
+	color: $white;
+	font-weight: 700;
+	text-align: center;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	z-index: 999;
+	@include size(45px, 45px);
+	text-transform: uppercase;
+	line-height: 52px;
+	display: none;
+	@include transition(all 0.35s);
+	i{
+		font-size: 24px;
+	}
+	&:hover{
+		cursor: pointer;
+		background: $white;
+		color: #444444;
+	}
+}
+
+

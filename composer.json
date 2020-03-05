@@ -1,0 +1,14 @@
+{
+    "name": "digitalseraph/rising-sun-recovery-wordpress",
+    "description": "Rising Sun Recovery Wordpress Website",
+    "require": {
+        "vlucas/phpdotenv": "^4.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Miller",
+            "email": "davidmiller.avatar@gmail.com"
+        }
+    ]
+}

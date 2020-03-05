@@ -1,0 +1,883 @@
+.give-block{
+  @include transition(all 0.35s); 
+  overflow: hidden;
+  .form-image{
+    position: relative;
+    &:after{
+      content: '';
+      @include size(100%, 100%);
+      background: rgba(0, 0, 0, 0.8);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 9;
+      @include transition(all 0.35s);
+      @include opacity(0);
+    }
+    .content-action{
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      margin-top: -20px;
+      z-index: 11;
+      text-align: center;
+      @include transition(all 0.35s);
+      @include opacity(0);
+      .link{
+        font-family: $font-family-second;
+        font-weight: 600;
+        font-size: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        color: $white;
+        padding: 8px 18px;
+        text-transform: uppercase;
+        text-align: center;
+        @include border-radius(30px);
+        @include transition(all 0.35s);
+        &:hover{
+          background: $theme-color;
+          border-color: $theme-color;
+        }
+      }
+    }
+    .give-gallery-post{
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 99;
+      a{
+        color: rgba(255, 255, 255, 0.8);
+        @include transition(all 0.35s);
+        .icon-expand{
+          font-size: 18px;
+          line-height: 1;
+        }
+        &:hover{
+          color: $theme-color;
+        }
+      } 
+    }
+    .give-video{
+      position: absolute;
+      top: 10px;
+      right: 40px;
+      z-index: 99;
+      a{
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 18px;
+        line-height: 1;
+        @include transition(all 0.35s);
+        &:hover{
+          color: $theme-color;
+        }
+      }
+    }
+  }
+  .progress {
+    height: 10px !important;
+    background-color: #DCDEE0!important;
+    position: relative;
+    overflow: visible!important;
+    @include border-radius(0);
+    margin-bottom: 0;
+    .progress-bar {
+      @include transition(width 1.6s ease-in-out);
+      line-height: 10px !important;
+      background: $theme-color;
+      position: relative;
+      @include border-radius(0);
+      @include box-shadow(none);
+    }
+  }
+  .form-content{
+    position: relative;
+    padding: 0;
+    background: $white;
+    .campaign-information{
+      float: left;
+      width: 100%;
+      padding-bottom: 20px;
+      margin-bottom: 15px;
+      border-bottom: 1px solid $border-color;
+      > div{
+        float: left;
+        text-align: center;
+        .c-label{
+          display: block;
+          text-transform: uppercase;
+          font-size: 12px;
+          font-family: $font-family-second;
+          font-weight: 600;
+          color: $black;
+        }
+      }
+      .campaign-raised{
+        width: 35%;
+        padding-top: 5px;
+        position: relative;
+        line-height: 1.4;
+        font-family: $font-family-second;
+        font-weight: 600;
+        color: $theme-color-3;
+        &:after{
+          content: '';
+          @include size(1px, auto);
+          background: $border-color;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          z-index: 1;
+        }
+      }
+      .funded{
+        width: 30%;
+        line-height: 1;
+        margin-top: 12px;
+        .pie-label{
+          font-size: 24px;
+          font-family: $font-family-second;
+          color: $theme-color;
+          font-weight: 400;
+          @media(max-width: $screen-xs-max){
+            font-size: 18px;
+          }
+        }
+      }
+      .campaign-goal{
+        width: 35%;
+        padding-top: 5px;
+        position: relative;
+        line-height: 1.4;
+        font-family: $font-family-second;
+        font-weight: 600;
+        color: $theme-color-2;
+        &:after{
+          content: '';
+          @include size(1px, auto);
+          background: $border-color;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          z-index: 1; 
+        }
+      }
+      &.unlimited{
+        .campaign-raised{
+          width: 50%;
+        }
+        .campaign-goal{
+          width: 50%;
+        }
+      }
+    }
+
+    .form-content-inner{
+      padding: 20px 30px 30px;
+      border: 1px solid rgba(0, 0, 0, 0.06);
+      border-top: 0;
+      .title{
+        margin: 20px 0;
+        font-weight: 600;
+        float: left;
+        width: 100%;
+        margin: 0 0 10px;
+        line-height: 24px;
+        text-transform: capitalize;
+        a{
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  &:hover{
+    @include box-shadow(0px 4px 26px 3px rgba(0, 0, 0, 0.1));
+    .form-image{
+      &:after{
+        @include opacity(1);
+      }
+    }
+    .content-action{
+      @include opacity(1);
+    }
+  }
+}
+
+.give-block-2{
+  position: relative;
+  @include clearfix();
+  .give-image{
+    position: relative;
+    &:after{
+      content: '';
+      @include size(100%, 100%);
+      background: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 9;
+      @include transition(all 0.35s);
+      @include opacity(0);
+    }
+    .give-gallery-post{
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 99;
+      a{
+        color: rgba(255, 255, 255, 0.8);
+        @include transition(all 0.35s);
+        .icon-expand{
+          font-size: 18px;
+          line-height: 1;
+        }
+        &:hover{
+          color: $theme-color;
+        }
+      } 
+    }
+    .give-video{
+      position: absolute;
+      top: 10px;
+      right: 40px;
+      z-index: 99;
+      a{
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 18px;
+        line-height: 1;
+        @include transition(all 0.35s);
+        &:hover{
+          color: $theme-color;
+        }
+      }
+    }
+  }
+  &:hover{
+    .give-image{
+      &:after{
+        @include opacity(1);
+      }
+    }
+    .give-content{
+      @include opacity(1);
+    }
+  }
+  .give-content{
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    z-index: 99;
+    width: 60%;
+    @include transition(all 0.35s);
+    @include opacity(1);
+    @include translateY(0);
+    @media(max-width: $screen-xs-max){
+      position: static;
+      width: 100%;
+      @include opacity(1);
+    }
+    .action-content{
+      @include size(30px, 30px);
+      background: $white;
+      position: absolute;
+      bottom: 100%;
+      right: 0;
+      z-index: 9;
+      line-height: 30px;
+      text-align: center;
+      @include transition(all 0.35s);
+      @media(max-width: $screen-xs-max){
+        display: none;
+      }
+      a{
+        display: block;
+        font-size: 16px;
+        color: $black;
+        &:hover{
+          cursor: pointer;
+          background: $theme-color;
+        }
+        &.content-close{
+          i{
+            &:before{
+              content: '\f106'!important;
+            }
+          }
+        }
+      }
+    }
+    .content-inner{
+      padding: 30px 30px 20px;
+      background: $white;
+      position: relative;
+      z-index: 11;
+      .title{
+        font-size: 18px;
+        float: left;
+        width: 100%;
+        margin: 0 0 10px;
+        text-transform: capitalize;
+      }
+      .desc{
+        float: left;
+        width: 100%;
+      }
+      .action{
+        float: left;
+        width: 100%;
+        margin-top: 15px;
+      }
+    }
+    &.content-close{
+      @include translateY(100%); 
+    }
+  }
+  .campaign-information{
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid $border-color;
+    > div{
+      float: left;
+      text-align: center;
+      .c-label{
+        display: block;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-family: $font-family-second;
+        font-weight: 600;
+        color: $black;
+      }
+    }
+    .campaign-raised{
+      width: 35%;
+      padding-top: 10px;
+      position: relative;
+      font-family: $font-family-second;
+      font-weight: 600;
+      color: $theme-color-3;
+      &:after{
+        content: '';
+        @include size(1px, 60px);
+        background: $border-color;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+      }
+    }
+    .funded{
+      width: 30%;
+      .pieChart{
+        @include size(68px, 68px);
+        display: inline-block;
+      }
+      .pie-label{
+        font-size: 12px;
+      }
+    }
+    .campaign-goal{
+      width: 35%;
+      padding-top: 10px;
+      position: relative;
+      font-family: $font-family-second;
+      font-weight: 600;
+      color: $theme-color-2;
+      &:after{
+        content: '';
+        @include size(1px, 60px);
+        background: $border-color;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1; 
+      }
+    }
+    &.unlimited{
+      .campaign-raised{
+        width: 50%;
+      }
+      .campaign-goal{
+        width: 50%;
+      }
+    }
+  }
+}
+
+.give-block-3{
+  position: relative;
+  @include clearfix();
+  background: $white;
+  .give-image{
+    position: relative;
+    width: 50%;
+    float: left;
+    @media(max-width: 650px){
+      width: 100%;
+    }
+    .give-gallery-post{
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 99;
+      a{
+        color: rgba(255, 255, 255, 0.8);
+        @include transition(all 0.35s);
+        .icon-expand{
+          font-size: 18px;
+          line-height: 1;
+        }
+        &:hover{
+          color: $theme-color;
+        }
+      } 
+    }
+    .give-video{
+      position: absolute;
+      top: 10px;
+      right: 40px;
+      z-index: 99;
+      a{
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 18px;
+        line-height: 1;
+        @include transition(all 0.35s);
+        &:hover{
+          color: $theme-color;
+        }
+      }
+    }
+  }
+  .give-content{
+    width: 50%;
+    float: left;
+    @media(max-width: 650px){
+      width: 100%;
+    }
+    .content-inner{
+      padding: 30px 30px 20px;
+      background: $white;
+      position: relative;
+      z-index: 11;
+      .title{
+        font-size: 18px;
+        float: left;
+        width: 100%;
+        margin: 0 0 10px;
+        text-transform: capitalize;
+      }
+      .desc{
+        @media(max-width: $screen-sm-max){
+          display: none;
+        }
+      }
+      .action{
+        margin-top: 10px;
+      }
+    }
+  }
+  .campaign-information{
+    float: left;
+    width: 100%;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid $border-color;
+    > div{
+      float: left;
+      text-align: center;
+      .c-label{
+        display: block;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-family: $font-family-second;
+        font-weight: 600;
+        color: $black;
+      }
+    }
+    .campaign-raised{
+      width: 35%;
+      padding-top: 10px;
+      position: relative;
+      font-family: $font-family-second;
+      font-weight: 600;
+      color: $theme-color-3;
+      &:after{
+        content: '';
+        @include size(1px, 60px);
+        background: $border-color;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+      }
+    }
+    .funded{
+      width: 30%;
+      .pieChart{
+        @include size(68px, 68px);
+        display: inline-block;
+      }
+      .pie-label{
+        font-size: 12px;
+      }
+    }
+    .campaign-goal{
+      width: 35%;
+      padding-top: 10px;
+      position: relative;
+      font-family: $font-family-second;
+      font-weight: 600;
+      color: $theme-color-2;
+      &:after{
+        content: '';
+        @include size(1px, 60px);
+        background: $border-color;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1; 
+      }
+    }
+    &.unlimited{
+      .campaign-raised{
+        width: 50%;
+      }
+      .campaign-goal{
+        width: 50%;
+      }
+    }
+  }
+}
+
+.gives-form-carousel-2{
+   .tab-carousel-nav{
+      width: 35%;
+      float: left;
+      @media(max-width: 992px){
+         width: 100%;
+         margin-bottom: 20px;
+      }
+      .link-service{
+        font-weight: 600;
+        display: block;
+        text-align: left;
+        padding: 25px 15px 25px 20px;
+        background: $white;
+        font-size: 18px;
+        position: relative;
+        font-family: $font-family-second;
+        color: $black;
+        @include transition(all 0.25s);
+        @media(max-width: 992px){
+          padding: 20px 10px;
+          font-size: 14px;
+          min-height: 88px;
+          line-height: 1.5;
+          line-height: 20px;
+          .title{
+            overflow: hidden;
+            white-space: nowrap;
+            overflow: hidden;
+          }
+        }
+        i{
+          font-size: 22px;
+          margin-right: 6px;
+          color: $theme-color;
+        }
+        &:after{
+          display: none;
+          content: '';
+          @include size(5px, auto); 
+          position: absolute;
+          top: 20px;
+          bottom: 20px;
+          right: 0;
+          background: $theme-color-2;
+          z-index: 11;
+          @include opacity(0);
+          @include transition(all 0.35s);
+        }
+        .cat-links{
+          display: block;
+          line-height: 22px;
+          a{
+            color: $theme-color;
+            font-size: 14px;
+            font-weight: 600;
+            font-family: $font-family-second;
+            @media(max-width: 992px){
+              font-size: 12px;
+            }
+            &:hover{
+              text-decoration: underline;
+            }
+          }
+        }
+        .title{
+          display: block;
+        }
+        &:hover{
+          background: $theme-color;
+          color: $black;
+          cursor: pointer;
+          .cat-links{
+            a{
+              color: $white;
+            }
+          }
+          &:after{
+            @include opacity(1);
+          }
+        }
+      }
+      .slick-center{
+         .link-service{
+            background: $theme-color;
+            color: $black;
+            .cat-links{
+              a{
+                color: $white;
+              }
+            }
+            &:after{
+               @include opacity(1);
+            }
+         }
+      }
+   }
+   .tab-lists-content{
+      width: 65%;
+      float: left;
+      @media(max-width: 992px){
+         width: 100%;
+      }
+   }
+}
+
+.gives-form-carousel-3{
+  .tab-carousel-nav{
+    width: 100%;
+    float: left;
+    border-top: 1px solid rgba(0, 0, 0, 0.01);
+    .link-service{
+      font-weight: 600;
+      display: block;
+      text-align: left;
+      padding: 25px 15px 25px 20px;
+      background: $white;
+      font-size: 18px;
+      position: relative;
+      font-family: $font-family-second;
+      color: $black;
+      @include transition(all 0.25s);
+      @include opacity(0.8);
+      @media(max-width: 992px){
+        padding: 25px 10px 10px;
+        font-size: 16px;
+        min-height: 80px;
+        line-height: 1.5;
+      }
+      i{
+        font-size: 22px;
+        margin-right: 6px;
+        color: $theme-color;
+      }
+      &:after{
+        display: none;
+        content: '';
+        @include size(5px, auto); 
+        position: absolute;
+        top: 20px;
+        bottom: 20px;
+        right: 0;
+        background: $theme-color-2;
+        z-index: 11;
+        @include opacity(0);
+        @include transition(all 0.35s);
+      }
+      .cat-links{
+        display: block;
+        line-height: 22px;
+        a{
+          color: $theme-color;
+          font-size: 14px;
+          font-weight: 600;
+          font-family: $font-family-second;
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+      .title{
+        display: block;
+      }
+      &:hover{
+        background: $theme-color;
+        color: $black;
+        cursor: pointer;
+        .cat-links{
+          a{
+            color: $white;
+          }
+        }
+        &:after{
+          @include opacity(1);
+        }
+      }
+    }
+    .slick-center{
+      .link-service{
+        background: $theme-color;
+        color: $black;
+        @include opacity(1);
+        .cat-links{
+          a{
+            color: $white;
+          }
+        }
+        &:after{
+          @include opacity(1);
+        }
+      }
+    }
+  }
+  .tab-lists-content{
+    width: 100%;
+    float: left;
+  }
+}
+
+//Content Single Give Form
+.content-single-give-form{
+  .single-give-images{
+    position: relative;
+    .images{
+      margin-bottom: 0!important;
+    }
+    .give-gallery-post{
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 99;
+      a{
+        @include size(30px, 30px);
+        line-height: 30px;
+        display: inline-block;
+        text-align: center;
+        background: $white;
+        color: $theme-color;
+        @include transition(all 0.35s);
+        .icon-expand{
+          font-size: 18px;
+          line-height: 1;
+        }
+        &:hover{
+          background: $theme-color;
+          color: $white;
+        }
+      } 
+    }
+    .give-video{
+      position: absolute;
+      top: 10px;
+      right: 50px;
+      z-index: 99;
+      a{
+        @include size(30px, 30px);
+        line-height: 30px;
+        display: inline-block;
+        text-align: center;
+        background: $white;
+        color: $theme-color;
+        font-size: 18px;
+        @include transition(all 0.35s);
+        &:hover{
+          background: $theme-color;
+          color: $white;
+        }
+      }
+    }
+  }
+  .give-goal-progress{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: $font-family-second;
+    color: $black;
+    .raised{
+      .income{
+        color: $theme-color;
+        font-size: 18px;
+      }
+      .goal-text{
+        color: $theme-color-2;
+        font-size: 18px;
+      }
+    }
+    .give-progress-bar{
+      height: 15px!important;
+      span{
+        background: $theme-color!important;
+      }
+    }
+  }
+  form[id*=give-form].give-form{
+    .give-total-wrap{
+      .give-donation-amount{
+        .give-currency-symbol{
+          background: $theme-color;
+          border: 1px solid $border-color!important;
+          @include size(40px, 40px);
+          line-height: 40px;
+          font-weight: 600;
+        }
+        .give-text-input{
+          border: 1px solid $border-color!important;
+          border-left: 0!important;
+          line-height: 40px!important;
+          height: 40px!important;
+        }
+      }
+    }
+    .give-donation-levels-wrap{
+      margin: 30px 0 10px!important;
+      li{
+        button{
+          @include border-radius(0);
+          background: #eaeaea;
+          border: none;
+          font-family: $font-family-second;
+          &.give-default-level, &:hover{
+            background: $theme-color;
+            color: $black;
+            @include box-shadow(0 6px 18px rgba(0, 0, 0, 0.1));
+          }
+          &:hover, &:focus{
+            outline: none;
+          }
+        }
+      }
+    }
+    .give-btn-reveal{
+      background: $theme-color;
+      font-size: 12px!important;
+      font-weight: 600!important;
+      color: $white;
+      border: none!important;
+      padding: 12px 20px;
+      &:hover{
+        background: darken($theme-color, 10%)!important;
+      }
+    }
+  }
+  .single-give{
+    padding: 30px;
+    border: 1px solid $border-color;
+    .give-form-title{
+      margin-bottom: 10px;
+    }
+  }
+}
