@@ -1,0 +1,309 @@
+.portfolio-v1{
+  position: relative;
+  overflow: hidden;
+  max-width: 510px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  .images{
+    position: relative;
+    text-align: center;
+    a.link-image-content{
+      display: block;
+      &:after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        @include size(100%, 100%); 
+        background: $black;
+        @include opacity(0);
+        @include scale(0.96);
+        z-index: 1;
+        @include transition(all 0.35s);
+      }
+    }
+    .link{
+      @include opacity(0);
+      @include transition(all 0.45s);
+      @include size(32px, 32px);
+      background: $white;
+      line-height: 33px;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      z-index: 99;
+      text-align: center;
+      margin-top: 45px;
+      &:hover{
+        background: $theme-color;
+        color: $white;
+      }
+    }
+  }
+  .content-inner{
+    position: absolute;
+    @include size(100%, auto);
+    left: 0;
+    bottom: -20px;
+    z-index: 11;
+    @include opacity(0);
+    text-align: left;
+    @include transition(all 0.35s);
+    padding: 0 25px 25px;
+    .title{  
+      margin-top: 30px;
+      @include transition(all 0.35s);
+      a{
+        display: block;
+        font-size: 18px;
+        color: $white;
+        font-weight: 600;
+        line-height: 26px;
+        text-transform: capitalize;
+        font-family: $font-family-second;
+        &:hover, &:focus, &:active{
+          text-decoration: underline;
+        }
+      }
+    }
+    .category{
+      margin-top: 30px;
+      @include transition(all 0.45s);
+      color: $white;
+      a{
+        color: $theme-color; 
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 500;
+        &:hover, &:focus, &:active{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  &:hover, &:active, &:focus{
+    .images{
+      a.link-image-content{
+        &:after{
+          @include opacity(0.8);
+          @include scale(1);
+        }
+      }
+      a.link{
+        @include opacity(1);
+        margin-top: 0;
+      }
+    }
+    .content-inner{
+      @include opacity(1);
+      bottom: 0;
+    }
+    .content-inner{
+      .title{
+        margin-top: 0;
+      }
+      .category{
+        margin-top: 0;
+      }
+    }
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+  }
+  &.portfolio-carousel{
+    margin-bottom: 0;
+  }
+}
+
+.no-gutter .portfolio-block{
+  margin-bottom: 0;
+}
+
+.portfolio-item-v2{
+  padding: 15px;
+  background: $white;
+  .images{
+    position: relative;
+    > a{
+      position: relative;
+      display: block;
+      overflow: hidden;
+      img{
+        @include transition(all 2s);
+      }
+      &:after{
+        content: "";
+        @include size(100%, 100%);
+        @include transition(all 0.35s);
+        top: 0;
+        left: 0;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 9;
+        @include opacity(0);
+      }
+      &:before{
+        content: "\e904";
+        font-family: 'FontAwesome';
+        @include size(40px, 40px);
+        text-align: center;
+        line-height: 40px;
+        color: $white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 30px;
+        margin-top: -20px;
+        margin-left: -20px;
+        z-index: 99;
+        @include transition(all 0.35s);
+        @include opacity(0);
+      }
+    }
+    .category{
+      display: inline-block;
+      font-size: 11px;
+      text-transform: uppercase;
+      font-weight: 600;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: $theme-color;
+      @include border-radius(3px);
+      z-index: 9;
+      a{
+        color: $white;
+        padding: 2px 5px;
+      }
+    }
+  }
+  .content-inner{
+    position: relative;
+    @include transition(all 0.35s);
+    padding-top: 10px;
+    .title{
+      font-size: 16px;
+      font-weight: 600;
+      color: $black;
+      margin-bottom: 5px;
+    }
+    .summary{
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+  &:hover{
+    .image a{
+      &:after, &:before{
+        @include opacity(1);
+      }
+    }
+  }
+}
+
+.portfolio-filter{
+  margin-bottom: 15px;
+  width: 100%;
+  float: left;
+  ul.nav-tabs{
+    display: inline-block;
+    text-align: left;
+    float: left;
+    > li{
+      > a{
+        background: none;
+        font-weight: 500;
+        color: $black;
+        @include transition(all 0.35s);
+        text-transform: uppercase;
+        font-family: $font-family-second;
+        padding: 0 5px;
+        &.active{
+          color: $theme-color;
+        }
+      }
+    }
+  }
+  .view-all{
+    float: right;
+  }
+}
+
+.gva-portfolio-items{
+  float: left;
+  width: 100%;
+}
+.gsc-portfolio-carousel{
+  &.remove-padding{
+    .init-carousel-owl{
+      margin-left: 0!important;
+      margin-right: 0!important;
+      .owl-item{
+        padding-left: 0!important;
+        padding-right: 0!important;
+      }
+    }
+  }
+}
+.portfolio-sideset{
+  .uk-slidenav-position{
+    float: left;
+    width: 100%;
+    position: relative;
+    @media(max-width: $screen-xs-max){
+      padding-bottom: 30px;
+      .uk-slideset-nav{
+        top: auto!important;
+        bottom: -15px!important;
+        text-align: center;
+      }
+    }
+  }
+}
+.single-portfolio{
+  .portfolio-content{
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    .title{
+      margin: 15px 0 15px;
+    }
+    .portfolio-information{
+      float: right;
+      margin: 0 0 15px 10px;
+      background: $theme-color;
+      padding: 20px;
+      min-width: 300px;
+      color: $white;
+      ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li{
+          .label{
+            font-size: 14px;
+            min-width: 110px;
+            display: inline-block;
+            text-align: right;
+            color: $white;
+            font-family: $font-family-second;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+  .portfolio-thumbnail{
+    .owl-dots{
+      position: absolute;
+      bottom: 10px;
+      > .owl-dot{
+        background: rgba(0, 0, 0, 0.8);
+      }
+    }
+  }
+  .post-navigation{
+    margin-bottom: 50px;
+  }
+}
