@@ -26,6 +26,14 @@ Step by step instructions on installing the application on your local machine
 3. Browse to url (<http://risingsunrecovery.test>)
 4. Start the WordPress quick setup
 
+### Docker Container
+
+To spin up the docker container run:
+
+```shell
+docker-compose up -d
+```
+
 ## WordPress Information
 
 This site uses the Kunco Theme from ThemeForest. This theme uses the following WordPress Plugins:

@@ -1,0 +1,36 @@
+version: '3.5'
+
+services:
+  # mariadb:
+  #   env_file: .env
+  #   image: 'bitnami/mariadb:10.3'
+  #   volumes:
+  #     - 'mariadb_data:/bitnami/mariadb'
+  #     # - '${SHARED_VOLUME_HOST_PATH}/mariadb_data:/bitnami/mariadb'
+    
+  mysql:
+    env_file: .env
+    image: 'bitnami/mysql:8.0'
+    volumes:
+      - 'mysql_data:/bitnami/mysql'
+
+  wordpress:
+    env_file: .env
+    image: 'bitnami/wordpress:5'
+    ports:
+      - '80:8080'
+      - '443:8443'
+    volumes:
+      - 'wordpress_data:/bitnami/wordpress'
+      # - '${SHARED_VOLUME_HOST_PATH}/wordpress_data:/bitnami/wordpress'
+    depends_on:
+      # - mariadb
+      - mysql
+
+volumes:
+  # mariadb_data:
+  #   driver: local
+  mysql_data:
+    driver: local
+  wordpress_data:
+    driver: local

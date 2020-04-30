@@ -9,3 +9,5 @@ vendor/
 *.sql
 *.sqlite
 .env
+docker/volumes/wordpress_data/**
+docker/volumes/mariadb_data/**
